@@ -21,7 +21,7 @@ This package aims to provide the list of the country and language (and
 currency) names in one place, rather than repeated in many programs.
 
 %description -l pl
-Celem tego pakiet jest dostarczenie list nazw krajów i jêzyków (oraz
+Celem tego pakietu jest dostarczenie list nazw krajów i jêzyków (oraz
 walut) w jednym miejscu, zamiast powtarzania ich w wielu programach.
 
 %prep
