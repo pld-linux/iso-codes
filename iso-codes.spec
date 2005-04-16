@@ -5,13 +5,12 @@
 Summary:	List of country and language names
 Summary(pl):	Lista nazw krajów i jêzyków
 Name:		iso-codes
-Version:	0.42
-%define	bver	pre1
-Release:	0.%{bver}.1
+Version:	0.46
+Release:	1
 License:	LGPL
 Group:		Applications/Text
-Source0:	http://people.debian.org/~mckinstry/%{name}-%{version}%{bver}.tar.gz
-# Source0-md5:	82e39ca14006767684d3c30d4006a153
+Source0:	http://ftp.debian.org/debian/pool/main/i/iso-codes/%{name}_%{version}.orig.tar.gz
+# Source0-md5:	bd84ecbff8a07b067dc344bf870a6fba
 BuildRequires:	gettext-devel
 BuildRequires:	python-PyXML
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -25,16 +24,17 @@ Celem tego pakietu jest dostarczenie list nazw krajów i jêzyków (oraz
 walut) w jednym miejscu, zamiast powtarzania ich w wielu programach.
 
 %prep
-%setup -q -n %{name}-%{version}%{bver}
+%setup -q
 
 %build
+%configure
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	PREFIX=$RPM_BUILD_ROOT%{_prefix}
+	DESTDIR=$RPM_BUILD_ROOT
 
 mv -f $RPM_BUILD_ROOT%{_datadir}/locale/{no,nb}/LC_MESSAGES/iso_4217.mo
 rm -rf $RPM_BUILD_ROOT%{_datadir}/locale/no
@@ -48,6 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog README TODO
 %{_datadir}/iso-codes
-# %{_datadir}/xml owned by libglade2 - make it more common or change it?
-#%{_datadir}/xml/iso-codes
+# XXX: shared with libglade2 - make it more common?
+%dir %{_datadir}/xml
+%{_datadir}/xml/iso-codes
 %{_pkgconfigdir}/iso-codes.pc
