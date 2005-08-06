@@ -1,0 +1,62 @@
+--- iso-codes-0.47/iso_3166/pl.po.orig	2004-09-28 09:09:01.000000000 +0200
++++ iso-codes-0.47/iso_3166/pl.po	2005-08-06 14:11:44.068541072 +0200
+@@ -572,7 +572,7 @@
+ # FK
+ #. name for FLK
+ msgid "Falkland Islands (Malvinas)"
+-msgstr "Falkladny (Malwiny)"
++msgstr "Falklandy (Malwiny)"
+ 
+ # FO
+ #. name for FRO
+@@ -595,7 +595,7 @@
+ 
+ #. official_name for FIN
+ msgid "Republic of Finland"
+-msgstr "REpublika Finlandii"
++msgstr "Republika Finlandii"
+ 
+ # FR
+ #. name for FRA
+@@ -1490,7 +1490,7 @@
+ 
+ #. official_name for WSM
+ msgid "Independent State of Samoa"
+-msgstr "Niezależna Państwo Samoa"
++msgstr "Niezależne Państwo Samoa"
+ 
+ # SM
+ #. name for SMR
+@@ -1508,7 +1508,7 @@
+ 
+ #. official_name for STP
+ msgid "Democratic Republic of Sao Tome and Principe"
+-msgstr "Demokratyczna Republika Wysp . Tomasza i Książęcej"
++msgstr "Demokratyczna Republika Wysp Św. Tomasza i Książęcej"
+ 
+ # SA
+ #. name for SAU
+@@ -1602,7 +1602,7 @@
+ # GS
+ #. name for SGS
+ msgid "South Georgia and the South Sandwich Islands"
+-msgstr "Wyspy Półudniowa Georgia i Sandwich Południowy"
++msgstr "Wyspy Południowa Georgia i Sandwich Południowy"
+ 
+ # ES
+ #. name for ESP
+@@ -1885,12 +1885,12 @@
+ # VI
+ #. name for VIR
+ msgid "Virgin Islands, U.S."
+-msgstr "Dzewicze Wyspy Stanów Zjednoczonych"
++msgstr "Dziewicze Wyspy Stanów Zjednoczonych"
+ 
+ # VI
+ #. official_name for VIR
+ msgid "Virgin Islands of the United States"
+-msgstr "Dzewicze Wyspy Stanów Zjednoczonych"
++msgstr "Dziewicze Wyspy Stanów Zjednoczonych"
+ 
+ # WF
+ #. name for WLF
