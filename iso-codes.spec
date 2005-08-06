@@ -5,15 +5,20 @@
 Summary:	List of country and language names
 Summary(pl):	Lista nazw krajów i jêzyków
 Name:		iso-codes
-Version:	0.46
+Version:	0.47
 Release:	1
 License:	LGPL
 Group:		Applications/Text
 Source0:	http://ftp.debian.org/debian/pool/main/i/iso-codes/%{name}_%{version}.orig.tar.gz
-# Source0-md5:	bd84ecbff8a07b067dc344bf870a6fba
+# Source0-md5:	c22e6ceb24808844cdced1dd4344e62e
+Patch0:		%{name}-pl.patch
 BuildRequires:	gettext-devel
 BuildRequires:	python-PyXML
+Conflicts:	pkgconfig < 1:0.19
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_noarchpkgconfigdir	%{_datadir}/pkgconfig
 
 %description
 This package aims to provide the list of the country and language (and
@@ -25,6 +30,7 @@ walut) w jednym miejscu, zamiast powtarzania ich w wielu programach.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure
@@ -51,4 +57,4 @@ rm -rf $RPM_BUILD_ROOT
 # XXX: shared with libglade2 - make it more common?
 %dir %{_datadir}/xml
 %{_datadir}/xml/iso-codes
-%{_pkgconfigdir}/iso-codes.pc
+%{_noarchpkgconfigdir}/iso-codes.pc
