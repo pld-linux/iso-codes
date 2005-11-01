@@ -1,6 +1,5 @@
 # TODO:
-# - some no.po contain more entries than nb.no - merge them
-# - check for missing locale dirs and glibc support
+# - some no.po contain more entries than nb.po - merge them
 # - finish pl :)
 Summary:	List of country and language names
 Summary(pl):	Lista nazw krajów i jêzyków
