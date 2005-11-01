@@ -5,13 +5,15 @@
 Summary:	List of country and language names
 Summary(pl):	Lista nazw krajów i jêzyków
 Name:		iso-codes
-Version:	0.47
+Version:	0.49
 Release:	1
 License:	LGPL
 Group:		Applications/Text
 Source0:	http://ftp.debian.org/debian/pool/main/i/iso-codes/%{name}_%{version}.orig.tar.gz
-# Source0-md5:	c22e6ceb24808844cdced1dd4344e62e
+# Source0-md5:	62b7f9469e00b92558d5d043a4be3910
 Patch0:		%{name}-pl.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	python-PyXML
 Conflicts:	pkgconfig < 1:0.19
@@ -33,6 +35,9 @@ walut) w jednym miejscu, zamiast powtarzania ich w wielu programach.
 %patch0 -p1
 
 %build
+%{__aclocal}
+%{__autoconf}
+%{__automake}
 %configure
 %{__make}
 
