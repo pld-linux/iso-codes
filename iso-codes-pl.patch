@@ -1,62 +1,71 @@
---- iso-codes-0.47/iso_3166/pl.po.orig	2004-09-28 09:09:01.000000000 +0200
-+++ iso-codes-0.47/iso_3166/pl.po	2005-08-06 14:11:44.068541072 +0200
-@@ -572,7 +572,7 @@
- # FK
+--- iso-codes-0.51/iso_3166/pl.po.orig	2006-04-03 22:22:44.000000000 +0200
++++ iso-codes-0.51/iso_3166/pl.po	2006-04-29 14:34:24.407036000 +0200
+@@ -490,7 +490,7 @@
+ 
  #. name for FLK
  msgid "Falkland Islands (Malvinas)"
 -msgstr "Falkladny (Malwiny)"
 +msgstr "Falklandy (Malwiny)"
  
- # FO
  #. name for FRO
-@@ -595,7 +595,7 @@
+ msgid "Faroe Islands"
+@@ -510,7 +510,7 @@
  
  #. official_name for FIN
  msgid "Republic of Finland"
 -msgstr "REpublika Finlandii"
 +msgstr "Republika Finlandii"
  
- # FR
  #. name for FRA
-@@ -1490,7 +1490,7 @@
+ msgid "France"
+@@ -1278,7 +1278,7 @@
  
  #. official_name for WSM
  msgid "Independent State of Samoa"
 -msgstr "Niezależna Państwo Samoa"
 +msgstr "Niezależne Państwo Samoa"
  
- # SM
  #. name for SMR
-@@ -1508,7 +1508,7 @@
+ msgid "San Marino"
+@@ -1294,7 +1294,7 @@
  
  #. official_name for STP
  msgid "Democratic Republic of Sao Tome and Principe"
 -msgstr "Demokratyczna Republika Wysp . Tomasza i Książęcej"
 +msgstr "Demokratyczna Republika Wysp Św. Tomasza i Książęcej"
  
- # SA
  #. name for SAU
-@@ -1602,7 +1602,7 @@
- # GS
+ msgid "Saudi Arabia"
+@@ -1374,7 +1374,7 @@
+ 
  #. name for SGS
  msgid "South Georgia and the South Sandwich Islands"
 -msgstr "Wyspy Półudniowa Georgia i Sandwich Południowy"
 +msgstr "Wyspy Południowa Georgia i Sandwich Południowy"
  
- # ES
  #. name for ESP
-@@ -1885,12 +1885,12 @@
- # VI
+ msgid "Spain"
+@@ -1615,11 +1615,11 @@
+ 
  #. name for VIR
  msgid "Virgin Islands, U.S."
 -msgstr "Dzewicze Wyspy Stanów Zjednoczonych"
 +msgstr "Dziewicze Wyspy Stanów Zjednoczonych"
  
- # VI
  #. official_name for VIR
  msgid "Virgin Islands of the United States"
 -msgstr "Dzewicze Wyspy Stanów Zjednoczonych"
 +msgstr "Dziewicze Wyspy Stanów Zjednoczonych"
  
- # WF
  #. name for WLF
+ msgid "Wallis and Futuna"
+@@ -1656,9 +1656,3 @@
+ #. name for SCG
+ msgid "Serbia and Montenegro"
+ msgstr "Serbia i Czarnogóra"
+-
+-#~ msgid "Iran"
+-#~ msgstr "Iran"
+-
+-#~ msgid "Syria"
+-#~ msgstr "Syria"
