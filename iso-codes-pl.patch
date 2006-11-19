@@ -1,6 +1,6 @@
---- iso-codes-0.52/iso_3166/pl.po.orig	2006-07-08 12:31:08.000000000 +0200
-+++ iso-codes-0.52/iso_3166/pl.po	2006-07-17 20:58:18.438327250 +0200
-@@ -481,7 +481,7 @@
+--- iso-codes-0.58/iso_3166/pl.po.orig	2006-10-29 10:05:11.000000000 +0100
++++ iso-codes-0.58/iso_3166/pl.po	2006-11-19 22:39:30.342773750 +0100
+@@ -482,7 +482,7 @@
  
  #. name for FLK
  msgid "Falkland Islands (Malvinas)"
@@ -9,7 +9,7 @@
  
  #. name for FRO
  msgid "Faroe Islands"
-@@ -501,7 +501,7 @@
+@@ -502,7 +502,7 @@
  
  #. official_name for FIN
  msgid "Republic of Finland"
@@ -18,34 +18,7 @@
  
  #. name for FRA
  msgid "France"
-@@ -597,7 +597,7 @@
- 
- #. name for GGY
- msgid "Guernsey"
--msgstr ""
-+msgstr "Guernsey"
- 
- #. name for GIN
- msgid "Guinea"
-@@ -711,7 +711,7 @@
- 
- #. name for IMN
- msgid "Isle of Man"
--msgstr ""
-+msgstr "Wyspa Man"
- 
- #. name for ISR
- msgid "Israel"
-@@ -739,7 +739,7 @@
- 
- #. name for JEY
- msgid "Jersey"
--msgstr ""
-+msgstr "Jersey"
- 
- #. name for JOR
- msgid "Jordan"
-@@ -1269,7 +1269,7 @@
+@@ -1278,7 +1278,7 @@
  
  #. official_name for WSM
  msgid "Independent State of Samoa"
@@ -54,7 +27,7 @@
  
  #. name for SMR
  msgid "San Marino"
-@@ -1285,7 +1285,7 @@
+@@ -1294,7 +1294,7 @@
  
  #. official_name for STP
  msgid "Democratic Republic of Sao Tome and Principe"
@@ -63,7 +36,7 @@
  
  #. name for SAU
  msgid "Saudi Arabia"
-@@ -1369,7 +1369,7 @@
+@@ -1382,7 +1382,7 @@
  
  #. name for SGS
  msgid "South Georgia and the South Sandwich Islands"
@@ -72,7 +45,7 @@
  
  #. name for ESP
  msgid "Spain"
-@@ -1618,11 +1618,11 @@
+@@ -1631,11 +1631,11 @@
  
  #. name for VIR
  msgid "Virgin Islands, U.S."
@@ -86,13 +59,3 @@
  
  #. name for WLF
  msgid "Wallis and Futuna"
-@@ -1655,9 +1655,3 @@
- #. official_name for ZWE
- msgid "Republic of Zimbabwe"
- msgstr "Republika Zimbabwe"
--
--#~ msgid "Iran"
--#~ msgstr "Iran"
--
--#~ msgid "Syria"
--#~ msgstr "Syria"
