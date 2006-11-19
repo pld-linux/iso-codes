@@ -4,17 +4,18 @@
 Summary:	List of country and language names
 Summary(pl):	Lista nazw krajów i jêzyków
 Name:		iso-codes
-Version:	0.53
+Version:	0.58
 Release:	1
 License:	LGPL
 Group:		Applications/Text
-Source0:	http://ftp.debian.org/debian/pool/main/i/iso-codes/%{name}_%{version}.orig.tar.gz
-# Source0-md5:	8459445fd437e3dbe5d4b03478cd29f5
+Source0:	http://ftp.debian.org/debian/pool/main/i/iso-codes/%{name}_%{version}-1.tar.gz
+# Source0-md5:	05f90ad07a5169dd0faadf5ba0530497
 Patch0:		%{name}-pl.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	python-PyXML
+Requires:	FHS >= 2.3-16
 Conflicts:	pkgconfig < 1:0.19
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -58,7 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog README TODO
 %{_datadir}/iso-codes
-# XXX: shared with libglade2 - make it more common?
-%dir %{_datadir}/xml
 %{_datadir}/xml/iso-codes
 %{_noarchpkgconfigdir}/iso-codes.pc
