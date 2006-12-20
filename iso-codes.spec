@@ -4,12 +4,12 @@
 Summary:	List of country and language names
 Summary(pl):	Lista nazw krajów i jêzyków
 Name:		iso-codes
-Version:	0.58
+Version:	1.0
 Release:	1
 License:	LGPL
 Group:		Applications/Text
-Source0:	http://ftp.debian.org/debian/pool/main/i/iso-codes/%{name}_%{version}-1.tar.gz
-# Source0-md5:	05f90ad07a5169dd0faadf5ba0530497
+Source0:	http://ftp.debian.org/debian/pool/main/i/iso-codes/%{name}_%{version}.orig.tar.gz
+# Source0-md5:	f59fa3e3da8a05553ade8ba3ab699bdb
 Patch0:		%{name}-pl.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
