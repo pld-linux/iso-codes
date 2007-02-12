@@ -2,7 +2,7 @@
 # - some no.po contain more entries than nb.po - merge them
 # - finish pl :)
 Summary:	List of country and language names
-Summary(pl):	Lista nazw kraj體 i j陑yk體
+Summary(pl.UTF-8):   Lista nazw kraj贸w i j臋zyk贸w
 Name:		iso-codes
 Version:	1.0
 Release:	1
@@ -26,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package aims to provide the list of the country and language (and
 currency) names in one place, rather than repeated in many programs.
 
-%description -l pl
-Celem tego pakietu jest dostarczenie list nazw kraj體 i j陑yk體 (oraz
+%description -l pl.UTF-8
+Celem tego pakietu jest dostarczenie list nazw kraj贸w i j臋zyk贸w (oraz
 walut) w jednym miejscu, zamiast powtarzania ich w wielu programach.
 
 %prep
