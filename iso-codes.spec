@@ -2,7 +2,7 @@
 # - some no.po contain more entries than nb.po - merge them
 # - finish pl :)
 Summary:	List of country and language names
-Summary(pl.UTF-8):   Lista nazw krajów i języków
+Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
 Version:	1.0
 Release:	1
