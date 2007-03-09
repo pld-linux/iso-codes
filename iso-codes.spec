@@ -48,7 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 
 mv -f $RPM_BUILD_ROOT%{_datadir}/locale/{no,nb}/LC_MESSAGES/iso_4217.mo
-rm -rf $RPM_BUILD_ROOT%{_datadir}/locale/{dv,haw,kok,no,pa_IN,ps,syr,wo}
+rm -rf $RPM_BUILD_ROOT%{_datadir}/locale/{dv,haw,kok,no,ps,syr}
 
 %find_lang %{name} --all-name
 
