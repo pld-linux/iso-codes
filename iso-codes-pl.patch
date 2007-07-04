@@ -1,61 +1,137 @@
---- iso-codes-0.58/iso_3166/pl.po.orig	2006-10-29 10:05:11.000000000 +0100
-+++ iso-codes-0.58/iso_3166/pl.po	2006-11-19 22:39:30.342773750 +0100
-@@ -482,7 +482,7 @@
+--- iso-codes-1.2/iso_3166/iso_3166_2/iso_3166_2.xml.orig	2007-06-29 08:16:28.000000000 +0200
++++ iso-codes-1.2/iso_3166/iso_3166_2/iso_3166_2.xml	2007-07-04 07:31:40.404107975 +0200
+@@ -6081,15 +6081,15 @@
+ 	<!-- Poland -->
+ <iso_3166_country code="PL">
+ 	<iso_3166_2_entry
+-		code="PL-DS"	name="Dolnoślaskie" />
++		code="PL-DS"	name="Dolnośląskie" />
+ 	<iso_3166_2_entry
+-		code="PL-KP"	name="Kujawsksöo-pomorskie" />
++		code="PL-KP"	name="Kujawsko-pomorskie" />
+ 	<iso_3166_2_entry
+ 		code="PL-LU"	name="Lubelskie" />
+ 	<iso_3166_2_entry
+ 		code="PL-LB"	name="Lubuskie" />
+ 	<iso_3166_2_entry
+-		code="PL-LD"	name="Łodzkie" />
++		code="PL-LD"	name="Łódzkie" />
+ 	<iso_3166_2_entry
+ 		code="PL-MA"	name="Małopolskie" />
+ 	<iso_3166_2_entry
+@@ -6103,15 +6103,15 @@
+ 	<iso_3166_2_entry
+ 		code="PL-PM"	name="Pomorskie" />
+ 	<iso_3166_2_entry
+-		code="PL-SL"	name="Ślaskie" />
++		code="PL-SL"	name="Śląskie" />
+ 	<iso_3166_2_entry
+-		code="PL-SK"	name="Świetokrzyskie" />
++		code="PL-SK"	name="Świętokrzyskie" />
+ 	<iso_3166_2_entry
+-		code="PL-WN"	name="Warminsko-mazurskie" />
++		code="PL-WN"	name="Warmińsko-mazurskie" />
+ 	<iso_3166_2_entry
+ 		code="PL-WP"	name="Wielkopolskie" />
+ 	<iso_3166_2_entry
+-		code="PL-ZP"	name="Zachodniopomorskie	" />
++		code="PL-ZP"	name="Zachodniopomorskie" />
+ </iso_3166_country>
+ 	<!-- Palestine -->
+ <iso_3166_country code="PS">
+--- iso-codes-1.2/iso_3166/iso_3166_2/pl.po.orig	2007-06-29 08:16:28.000000000 +0200
++++ iso-codes-1.2/iso_3166/iso_3166_2/pl.po	2007-07-04 07:41:15.524882240 +0200
+@@ -11841,70 +11841,68 @@ msgid "Northern Areas"
+ msgstr "Korea Północna"
  
- #. name for FLK
- msgid "Falkland Islands (Malvinas)"
--msgstr "Falkladny (Malwiny)"
-+msgstr "Falklandy (Malwiny)"
+ #. name for PL-DS
+-#, fuzzy
+-msgid "Dolnoślaskie"
+-msgstr "Słowacki"
++msgid "Dolnośląskie"
++msgstr "Dolnośląskie"
  
- #. name for FRO
- msgid "Faroe Islands"
-@@ -502,7 +502,7 @@
+ #. name for PL-KP
+-msgid "Kujawsksöo-pomorskie"
+-msgstr ""
++msgid "Kujawsko-pomorskie"
++msgstr "Kujawsko-pomorskie"
  
- #. official_name for FIN
- msgid "Republic of Finland"
--msgstr "REpublika Finlandii"
-+msgstr "Republika Finlandii"
+ #. name for PL-LU
+ msgid "Lubelskie"
+-msgstr ""
++msgstr "Lubelskie"
  
- #. name for FRA
- msgid "France"
-@@ -1278,7 +1278,7 @@
+ #. name for PL-LB
+ msgid "Lubuskie"
+-msgstr ""
++msgstr "Lubuskie"
  
- #. official_name for WSM
- msgid "Independent State of Samoa"
--msgstr "Niezależna Państwo Samoa"
-+msgstr "Niezależne Państwo Samoa"
+ #. name for PL-LD
+-msgid "Łodzkie"
+-msgstr ""
++msgid "Łódzkie"
++msgstr "Łódzkie"
  
- #. name for SMR
- msgid "San Marino"
-@@ -1294,7 +1294,7 @@
+ #. name for PL-MA
+ msgid "Małopolskie"
+-msgstr ""
++msgstr "Małopolskie"
  
- #. official_name for STP
- msgid "Democratic Republic of Sao Tome and Principe"
--msgstr "Demokratyczna Republika Wysp . Tomasza i Książęcej"
-+msgstr "Demokratyczna Republika Wysp Św. Tomasza i Książęcej"
+ #. name for PL-MZ
+ msgid "Mazowieckie"
+-msgstr ""
++msgstr "Mazowieckie"
  
- #. name for SAU
- msgid "Saudi Arabia"
-@@ -1382,7 +1382,7 @@
+ #. name for PL-OP
+ msgid "Opolskie"
+-msgstr ""
++msgstr "Opolskie"
  
- #. name for SGS
- msgid "South Georgia and the South Sandwich Islands"
--msgstr "Wyspy Półudniowa Georgia i Sandwich Południowy"
-+msgstr "Wyspy Południowa Georgia i Sandwich Południowy"
+ #. name for PL-PK
+ msgid "Podkarpackie"
+-msgstr ""
++msgstr "Podkarpackie"
  
- #. name for ESP
- msgid "Spain"
-@@ -1631,11 +1631,11 @@
+ #. name for PL-PD
+ msgid "Podlaskie"
+-msgstr ""
++msgstr "Podlaskie"
  
- #. name for VIR
- msgid "Virgin Islands, U.S."
--msgstr "Dzewicze Wyspy Stanów Zjednoczonych"
-+msgstr "Dziewicze Wyspy Stanów Zjednoczonych"
+ #. name for PL-PM
+ msgid "Pomorskie"
+-msgstr ""
++msgstr "Pomorskie"
  
- #. official_name for VIR
- msgid "Virgin Islands of the United States"
--msgstr "Dzewicze Wyspy Stanów Zjednoczonych"
-+msgstr "Dziewicze Wyspy Stanów Zjednoczonych"
+ #. name for PL-SL
+-#, fuzzy
+-msgid "Ślaskie"
+-msgstr "Słowacki"
++msgid "Śląskie"
++msgstr "Śląskie"
  
- #. name for WLF
- msgid "Wallis and Futuna"
+ #. name for PL-SK
+-msgid "Świetokrzyskie"
+-msgstr ""
++msgid "Świętokrzyskie"
++msgstr "Świętokrzyskie"
+ 
+ #. name for PL-WN
+-msgid "Warminsko-mazurskie"
+-msgstr ""
++msgid "Warmińsko-mazurskie"
++msgstr "Warmińsko-mazurskie"
+ 
+ #. name for PL-WP
+ msgid "Wielkopolskie"
+-msgstr ""
++msgstr "Wielkopolskie"
+ 
+ #. name for PL-ZP
+-msgid "Zachodniopomorskie "
+-msgstr ""
++msgid "Zachodniopomorskie"
++msgstr "Zachodniopomorskie"
+ 
+ #. name for PS
+ msgid "Palestinian Territory, Occupied"
