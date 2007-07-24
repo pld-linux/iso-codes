@@ -1,137 +1,463 @@
---- iso-codes-1.2/iso_3166/iso_3166_2/iso_3166_2.xml.orig	2007-06-29 08:16:28.000000000 +0200
-+++ iso-codes-1.2/iso_3166/iso_3166_2/iso_3166_2.xml	2007-07-04 07:31:40.404107975 +0200
-@@ -6081,15 +6081,15 @@
- 	<!-- Poland -->
- <iso_3166_country code="PL">
- 	<iso_3166_2_entry
--		code="PL-DS"	name="Dolnoślaskie" />
-+		code="PL-DS"	name="Dolnośląskie" />
- 	<iso_3166_2_entry
--		code="PL-KP"	name="Kujawsksöo-pomorskie" />
-+		code="PL-KP"	name="Kujawsko-pomorskie" />
- 	<iso_3166_2_entry
- 		code="PL-LU"	name="Lubelskie" />
- 	<iso_3166_2_entry
- 		code="PL-LB"	name="Lubuskie" />
- 	<iso_3166_2_entry
--		code="PL-LD"	name="Łodzkie" />
-+		code="PL-LD"	name="Łódzkie" />
- 	<iso_3166_2_entry
- 		code="PL-MA"	name="Małopolskie" />
- 	<iso_3166_2_entry
-@@ -6103,15 +6103,15 @@
- 	<iso_3166_2_entry
- 		code="PL-PM"	name="Pomorskie" />
- 	<iso_3166_2_entry
--		code="PL-SL"	name="Ślaskie" />
-+		code="PL-SL"	name="Śląskie" />
- 	<iso_3166_2_entry
--		code="PL-SK"	name="Świetokrzyskie" />
-+		code="PL-SK"	name="Świętokrzyskie" />
- 	<iso_3166_2_entry
--		code="PL-WN"	name="Warminsko-mazurskie" />
-+		code="PL-WN"	name="Warmińsko-mazurskie" />
- 	<iso_3166_2_entry
- 		code="PL-WP"	name="Wielkopolskie" />
- 	<iso_3166_2_entry
--		code="PL-ZP"	name="Zachodniopomorskie	" />
-+		code="PL-ZP"	name="Zachodniopomorskie" />
- </iso_3166_country>
- 	<!-- Palestine -->
- <iso_3166_country code="PS">
---- iso-codes-1.2/iso_3166/iso_3166_2/pl.po.orig	2007-06-29 08:16:28.000000000 +0200
-+++ iso-codes-1.2/iso_3166/iso_3166_2/pl.po	2007-07-04 07:41:15.524882240 +0200
-@@ -11841,70 +11841,68 @@ msgid "Northern Areas"
- msgstr "Korea Północna"
+--- iso-codes-1.3/iso_639/pl.po.orig	2007-07-23 19:27:03.000000000 +0200
++++ iso-codes-1.3/iso_639/pl.po	2007-07-24 21:43:47.019670326 +0200
+@@ -32,7 +32,7 @@
  
- #. name for PL-DS
+ #. name for ace
+ msgid "Achinese"
+-msgstr ""
++msgstr "aczineski"
+ 
+ #. name for ach
+ msgid "Acoli"
+@@ -76,7 +76,7 @@
+ 
+ #. name for ale
+ msgid "Aleut"
+-msgstr ""
++msgstr "aleucki"
+ 
+ #. name for alg
+ msgid "Algonquian languages"
+@@ -100,7 +100,7 @@
+ 
+ #. name for apa
+ msgid "Apache languages"
+-msgstr ""
++msgstr "języki Apaczów"
+ 
+ #. name for ara, ar
+ msgid "Arabic"
+@@ -140,7 +140,7 @@
+ 
+ #. name for ast
+ msgid "Asturian; Bable"
+-msgstr ""
++msgstr "asturski"
+ 
+ #. name for ath
+ msgid "Athapascan languages"
+@@ -164,16 +164,15 @@
+ 
+ #. name for aym, ay
+ msgid "Aymara"
+-msgstr ""
++msgstr "ajmara"
+ 
+ #. name for aze, az
+ msgid "Azerbaijani"
+ msgstr "azerski"
+ 
+ #. name for bad
 -#, fuzzy
--msgid "Dolnoślaskie"
--msgstr "Słowacki"
-+msgid "Dolnośląskie"
-+msgstr "Dolnośląskie"
+ msgid "Banda languages"
+-msgstr "języki majańskie"
++msgstr "języki banda"
  
- #. name for PL-KP
--msgid "Kujawsksöo-pomorskie"
+ #. name for bai
+ msgid "Bamileke languages"
+@@ -193,7 +192,7 @@
+ 
+ #. name for ban
+ msgid "Balinese"
 -msgstr ""
-+msgid "Kujawsko-pomorskie"
-+msgstr "Kujawsko-pomorskie"
++msgstr "balijski"
  
- #. name for PL-LU
- msgid "Lubelskie"
+ #. name for eus, eu
+ msgid "Basque"
+@@ -237,7 +236,7 @@
+ 
+ #. name for bik
+ msgid "Bikol"
 -msgstr ""
-+msgstr "Lubelskie"
++msgstr "bikol"
  
- #. name for PL-LB
- msgid "Lubuskie"
--msgstr ""
-+msgstr "Lubuskie"
+ #. name for bin
+ msgid "Bini; Edo"
+@@ -268,9 +267,8 @@
+ msgstr "bretoński"
  
- #. name for PL-LD
--msgid "Łodzkie"
--msgstr ""
-+msgid "Łódzkie"
-+msgstr "Łódzkie"
- 
- #. name for PL-MA
- msgid "Małopolskie"
--msgstr ""
-+msgstr "Małopolskie"
- 
- #. name for PL-MZ
- msgid "Mazowieckie"
--msgstr ""
-+msgstr "Mazowieckie"
- 
- #. name for PL-OP
- msgid "Opolskie"
--msgstr ""
-+msgstr "Opolskie"
- 
- #. name for PL-PK
- msgid "Podkarpackie"
--msgstr ""
-+msgstr "Podkarpackie"
- 
- #. name for PL-PD
- msgid "Podlaskie"
--msgstr ""
-+msgstr "Podlaskie"
- 
- #. name for PL-PM
- msgid "Pomorskie"
--msgstr ""
-+msgstr "Pomorskie"
- 
- #. name for PL-SL
+ #. name for btk
 -#, fuzzy
--msgid "Ślaskie"
--msgstr "Słowacki"
-+msgid "Śląskie"
-+msgstr "Śląskie"
+ msgid "Batak languages"
+-msgstr "języki majańskie"
++msgstr "języki batak"
  
- #. name for PL-SK
--msgid "Świetokrzyskie"
+ #. name for bua
+ msgid "Buriat"
+@@ -301,9 +299,8 @@
+ msgstr "Indian środkowoamerykańskich (inne)"
+ 
+ #. name for car
+-#, fuzzy
+ msgid "Galibi Carib"
+-msgstr "galicyjski; galisyjski"
++msgstr "karaibski galibi"
+ 
+ #. name for cat, ca
+ msgid "Catalan; Valencian"
+@@ -323,7 +320,7 @@
+ 
+ #. name for cha, ch
+ msgid "Chamorro"
 -msgstr ""
-+msgid "Świętokrzyskie"
-+msgstr "Świętokrzyskie"
++msgstr "czamarro"
  
- #. name for PL-WN
--msgid "Warminsko-mazurskie"
+ #. name for chb
+ msgid "Chibcha"
+@@ -383,7 +380,7 @@
+ 
+ #. name for cmc
+ msgid "Chamic languages"
 -msgstr ""
-+msgid "Warmińsko-mazurskie"
-+msgstr "Warmińsko-mazurskie"
++msgstr "języki chamickie"
  
- #. name for PL-WP
- msgid "Wielkopolskie"
+ #. name for cop
+ msgid "Coptic"
+@@ -415,7 +412,7 @@
+ 
+ #. name for crh
+ msgid "Crimean Tatar; Crimean Turkish"
 -msgstr ""
-+msgstr "Wielkopolskie"
++msgstr "krymskotatarski; krymski"
  
- #. name for PL-ZP
--msgid "Zachodniopomorskie "
+ #. name for crp
+ msgid "Creoles and pidgins (Other)"
+@@ -427,7 +424,7 @@
+ 
+ #. name for cus
+ msgid "Cushitic (Other)"
 -msgstr ""
-+msgid "Zachodniopomorskie"
-+msgstr "Zachodniopomorskie"
++msgstr "kuszyckie (inne)"
  
- #. name for PS
- msgid "Palestinian Territory, Occupied"
+ #. name for ces, cs
+ msgid "Czech"
+@@ -446,9 +443,8 @@
+ msgstr ""
+ 
+ #. name for day
+-#, fuzzy
+ msgid "Land Dayak languages"
+-msgstr "języki majańskie"
++msgstr "języki dajak"
+ 
+ #. name for del
+ msgid "Delaware"
+@@ -600,7 +596,7 @@
+ 
+ #. name for ful, ff
+ msgid "Fulah"
+-msgstr ""
++msgstr "fulani"
+ 
+ #. name for fur
+ msgid "Friulian"
+@@ -664,7 +660,7 @@
+ 
+ #. name for gon
+ msgid "Gondi"
+-msgstr ""
++msgstr "gondi"
+ 
+ #. name for gor
+ msgid "Gorontalo"
+@@ -672,7 +668,7 @@
+ 
+ #. name for got
+ msgid "Gothic"
+-msgstr ""
++msgstr "gocki"
+ 
+ #. name for grb
+ msgid "Grebo"
+@@ -764,11 +760,11 @@
+ 
+ #. name for iba
+ msgid "Iban"
+-msgstr ""
++msgstr "ibanag"
+ 
+ #. name for ibo, ig
+ msgid "Igbo"
+-msgstr "igbo"
++msgstr "ibo"
+ 
+ #. name for isl, is
+ msgid "Icelandic"
+@@ -783,9 +779,8 @@
+ msgstr ""
+ 
+ #. name for ijo
+-#, fuzzy
+ msgid "Ijo languages"
+-msgstr "języki siouańskie"
++msgstr "języki ijo"
+ 
+ #. name for iku, iu
+ msgid "Inuktitut"
+@@ -797,7 +792,7 @@
+ 
+ #. name for ilo
+ msgid "Iloko"
+-msgstr ""
++msgstr "ilokano"
+ 
+ #. name for ina, ia
+ msgid "Interlingua (International Auxiliary Language Association)"
+@@ -880,9 +875,8 @@
+ msgstr "kannada"
+ 
+ #. name for kar
+-#, fuzzy
+ msgid "Karen languages"
+-msgstr "języki majańskie"
++msgstr "języki kareńskie"
+ 
+ #. name for kas, ks
+ msgid "Kashmiri"
+@@ -906,7 +900,7 @@
+ 
+ #. name for kha
+ msgid "Khasi"
+-msgstr ""
++msgstr "khasi"
+ 
+ #. name for khi
+ msgid "Khoisan (Other)"
+@@ -929,7 +923,6 @@
+ msgstr "ruanda-rundi"
+ 
+ #. name for kir, ky
+-#, fuzzy
+ msgid "Kirghiz; Kyrgyz"
+ msgstr "kirgiski"
+ 
+@@ -967,16 +960,15 @@
+ 
+ #. name for krl
+ msgid "Karelian"
+-msgstr ""
++msgstr "karelski"
+ 
+ #. name for kro
+-#, fuzzy
+ msgid "Kru languages"
+-msgstr "języki nubijskie"
++msgstr "języki kru"
+ 
+ #. name for kru
+ msgid "Kurukh"
+-msgstr ""
++msgstr "kurukh"
+ 
+ #. name for kua, kj
+ msgid "Kuanyama; Kwanyama"
+@@ -996,7 +988,7 @@
+ 
+ #. name for lad
+ msgid "Ladino"
+-msgstr ""
++msgstr "ladyński"
+ 
+ #. name for lah
+ msgid "Lahnda"
+@@ -1080,7 +1072,7 @@
+ 
+ #. name for mad
+ msgid "Madurese"
+-msgstr ""
++msgstr "madurajski"
+ 
+ #. name for mag
+ msgid "Magahi"
+@@ -1096,7 +1088,7 @@
+ 
+ #. name for mak
+ msgid "Makasar"
+-msgstr ""
++msgstr "makasar"
+ 
+ #. name for mal, ml
+ msgid "Malayalam"
+@@ -1104,7 +1096,7 @@
+ 
+ #. name for man
+ msgid "Mandingo"
+-msgstr ""
++msgstr "mandingo"
+ 
+ #. name for mri, mi
+ msgid "Maori"
+@@ -1112,7 +1104,7 @@
+ 
+ #. name for map
+ msgid "Austronesian (Other)"
+-msgstr ""
++msgstr "austronezyjskie (inne)"
+ 
+ #. name for mar, mr
+ msgid "Marathi"
+@@ -1200,7 +1192,7 @@
+ 
+ #. name for mun
+ msgid "Munda languages"
+-msgstr ""
++msgstr "języki mundari"
+ 
+ #. name for mus
+ msgid "Creek"
+@@ -1223,9 +1215,8 @@
+ msgstr ""
+ 
+ #. name for nah
+-#, fuzzy
+ msgid "Nahuatl languages"
+-msgstr "języki nubijskie"
++msgstr "języki nahuatl"
+ 
+ #. name for nai
+ msgid "North American Indian"
+@@ -1273,7 +1264,7 @@
+ 
+ #. name for nic
+ msgid "Niger-Kordofanian (Other)"
+-msgstr ""
++msgstr "nigero-kordofańskie (inne)"
+ 
+ #. name for niu
+ msgid "Niuean"
+@@ -1317,7 +1308,7 @@
+ 
+ #. name for nya, ny
+ msgid "Chichewa; Chewa; Nyanja"
+-msgstr ""
++msgstr "chichewa; chewa; njandża"
+ 
+ #. name for nym
+ msgid "Nyamwezi"
+@@ -1381,7 +1372,7 @@
+ 
+ #. name for pam
+ msgid "Pampanga"
+-msgstr ""
++msgstr "pampango"
+ 
+ #. name for pan, pa
+ msgid "Panjabi; Punjabi"
+@@ -1393,7 +1384,7 @@
+ 
+ #. name for pau
+ msgid "Palauan"
+-msgstr ""
++msgstr "palau"
+ 
+ #. name for peo
+ msgid "Persian, Old (ca. 600-400 B.C.)"
+@@ -1449,7 +1440,7 @@
+ 
+ #. name for raj
+ msgid "Rajasthani"
+-msgstr ""
++msgstr "radźasthani"
+ 
+ #. name for rap
+ msgid "Rapanui"
+@@ -1464,9 +1455,8 @@
+ msgstr "romańskie (inne)"
+ 
+ #. name for roh, rm
+-#, fuzzy
+ msgid "Romansh"
+-msgstr "cygański; romski"
++msgstr "retoromański"
+ 
+ #. name for rom
+ msgid "Romany"
+@@ -1482,7 +1472,7 @@
+ 
+ #. name for rup
+ msgid "Aromanian; Arumanian; Macedo-Romanian"
+-msgstr ""
++msgstr "arumuński; macedo-rumuński"
+ 
+ #. name for rus, ru
+ msgid "Russian"
+@@ -1498,7 +1488,7 @@
+ 
+ #. name for sah
+ msgid "Yakut"
+-msgstr ""
++msgstr "jakucki"
+ 
+ #. name for sai
+ msgid "South American Indian (Other)"
+@@ -1518,11 +1508,11 @@
+ 
+ #. name for sas
+ msgid "Sasak"
+-msgstr ""
++msgstr "sasak"
+ 
+ #. name for sat
+ msgid "Santali"
+-msgstr ""
++msgstr "santali"
+ 
+ #. name for srp, sr
+ msgid "Serbian"
+@@ -1630,16 +1620,15 @@
+ 
+ #. name for sog
+ msgid "Sogdian"
+-msgstr ""
++msgstr "sogdiański"
+ 
+ #. name for som, so
+ msgid "Somali"
+ msgstr "somalijski"
+ 
+ #. name for son
+-#, fuzzy
+ msgid "Songhai languages"
+-msgstr "języki siouańskie"
++msgstr "języki songhajskie"
+ 
+ #. name for sot, st
+ msgid "Sotho, Southern"
+@@ -1663,7 +1652,7 @@
+ 
+ #. name for ssa
+ msgid "Nilo-Saharan (Other)"
+-msgstr ""
++msgstr "nilo-saharyjskie (inne)"
+ 
+ #. name for ssw, ss
+ msgid "Swati"
+@@ -1739,7 +1728,7 @@
+ 
+ #. name for tgl, tl
+ msgid "Tagalog"
+-msgstr ""
++msgstr "tagalog"
+ 
+ #. name for tha, th
+ msgid "Thai"
+@@ -1907,7 +1896,7 @@
+ 
+ #. name for wen
+ msgid "Sorbian languages"
+-msgstr ""
++msgstr "języki łużyckie"
+ 
+ #. name for wln, wa
+ msgid "Walloon"
+@@ -1958,9 +1947,8 @@
+ msgstr ""
+ 
+ #. name for znd
+-#, fuzzy
+ msgid "Zande languages"
+-msgstr "języki majańskie"
++msgstr "języki zande"
+ 
+ #. name for zul, zu
+ msgid "Zulu"
