@@ -4,12 +4,12 @@
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	1.4
+Version:	1.5
 Release:	1
 License:	LGPL
 Group:		Applications/Text
 Source0:	ftp://pkg-isocodes.alioth.debian.org/pub/pkg-isocodes/%{name}-%{version}.tar.bz2
-# Source0-md5:	4073466e57df23d39721513219e4f7ae
+# Source0-md5:	96632aa78b23f2149e126c6b890db059
 Patch0:		%{name}-pl.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
