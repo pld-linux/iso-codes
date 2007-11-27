@@ -1,0 +1,56 @@
+--- iso-codes-1.6/iso_3166/pl.po.orig	2007-11-20 09:15:40.000000000 +0100
++++ iso-codes-1.6/iso_3166/pl.po	2007-11-27 22:11:22.244380822 +0100
+@@ -12,7 +12,7 @@
+ # 
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: iso_3166 1.4\n"
++"Project-Id-Version: iso_3166 1.6\n"
+ "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
+ "POT-Creation-Date: 2007-08-20 17:47+0200\n"
+ "PO-Revision-Date: 2007-09-20 12:01+0200\n"
+@@ -1574,7 +1574,7 @@
+ #   http://www.mos.gov.pl/1akty_prawne/rozporzadzenia_ms/cites/zal3.html
+ #. name for UMI
+ msgid "United States Minor Outlying Islands"
+-msgstr "Odległe Mniejsze Wyspy Stanów Zjednoczonych"
++msgstr "Dalekie Wyspy Mniejsze Stanów Zjednoczonych"
+ 
+ #. name for URY
+ msgid "Uruguay"
+@@ -1678,7 +1678,7 @@
+ 
+ #. names for CTE
+ msgid "Canton and Enderbury Islands"
+-msgstr ""
++msgstr "Canton i Enderbury"
+ 
+ #. names for CSK
+ msgid "Czechoslovakia, Czechoslovak Socialist Republic"
+@@ -1698,7 +1698,7 @@
+ 
+ #. names for FXX
+ msgid "France, Metropolitan"
+-msgstr ""
++msgstr "Francja metropolitalna"
+ 
+ #. names for AFI
+ msgid "French Afars and Issas"
+@@ -1722,7 +1722,7 @@
+ 
+ #. names for JTN
+ msgid "Johnston Island"
+-msgstr ""
++msgstr "Johnston"
+ 
+ #. names for MID
+ msgid "Midway Islands"
+@@ -1754,7 +1754,7 @@
+ 
+ #. names for KNA
+ msgid "St. Kitts-Nevis-Anguilla"
+-msgstr ""
++msgstr "Saint Kitts-Nevis-Anguilla"
+ 
+ #. names for SCG
+ msgid "Serbia and Montenegro"
