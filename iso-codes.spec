@@ -3,14 +3,14 @@
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	1.6
+Version:	1.7
 Release:	1
 License:	LGPL
 Group:		Applications/Text
 Source0:	ftp://pkg-isocodes.alioth.debian.org/pub/pkg-isocodes/%{name}-%{version}.tar.bz2
-# Source0-md5:	01223a6d048d1b09e58349f5cd8de414
-Patch0:		%{name}-pl.po-update.patch
-Patch1:		%{name}-pl.patch
+# Source0-md5:	d827155521f4f9baf3fbece2f4bc1985
+Patch0:		%{name}-pl.patch
+URL:		http://pkg-isocodes.alioth.debian.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
@@ -33,7 +33,6 @@ walut) w jednym miejscu, zamiast powtarzania ich w wielu programach.
 %prep
 %setup -q
 %patch0 -p1
-%patch1 -p1
 
 %build
 %{__aclocal}
