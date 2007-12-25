@@ -9,8 +9,8 @@
  
  #. names for SUN
  msgid "USSR, Union of Soviet Socialist Republics"
---- iso-codes-1.6/iso_639/pl.po.orig	2007-11-20 09:15:35.000000000 +0100
-+++ iso-codes-1.6/iso_639/pl.po	2007-11-27 23:11:39.538518667 +0100
+--- iso-codes-1.7/iso_639/pl.po.orig	2007-12-21 11:37:30.000000000 +0100
++++ iso-codes-1.7/iso_639/pl.po	2007-12-25 22:47:06.836061764 +0100
 @@ -32,7 +32,7 @@
  
  #. name for ace
@@ -119,7 +119,12 @@
  
  #. name for chb
  msgid "Chibcha"
-@@ -380,7 +380,7 @@
+@@ -376,11 +376,11 @@
+ 
+ #. name for chy
+ msgid "Cheyenne"
+-msgstr ""
++msgstr "czejeński"
  
  #. name for cmc
  msgid "Chamic languages"
@@ -196,7 +201,7 @@
  
  #. name for isl, is
  msgid "Icelandic"
-@@ -780,7 +780,7 @@
+@@ -780,20 +780,19 @@
  
  #. name for ijo
  msgid "Ijo languages"
@@ -205,7 +210,13 @@
  
  #. name for iku, iu
  msgid "Inuktitut"
-@@ -792,7 +792,7 @@
+ msgstr "inuktitut"
+ 
+ #. name for ile, ie
+-#, fuzzy
+ msgid "Interlingue; Occidental"
+-msgstr "interlingua"
++msgstr "interlingue; occidental"
  
  #. name for ilo
  msgid "Iloko"
@@ -214,7 +225,7 @@
  
  #. name for ina, ia
  msgid "Interlingua (International Auxiliary Language Association)"
-@@ -876,7 +876,7 @@
+@@ -877,7 +876,7 @@
  
  #. name for kar
  msgid "Karen languages"
@@ -223,7 +234,7 @@
  
  #. name for kas, ks
  msgid "Kashmiri"
-@@ -900,7 +900,7 @@
+@@ -901,7 +900,7 @@
  
  #. name for kha
  msgid "Khasi"
@@ -232,7 +243,7 @@
  
  #. name for khi
  msgid "Khoisan (Other)"
-@@ -908,7 +908,7 @@
+@@ -909,7 +908,7 @@
  
  #. name for khm, km
  msgid "Central Khmer"
@@ -241,7 +252,7 @@
  
  #. name for kho
  msgid "Khotanese"
-@@ -960,15 +960,15 @@
+@@ -961,15 +960,15 @@
  
  #. name for krl
  msgid "Karelian"
@@ -260,7 +271,7 @@
  
  #. name for kua, kj
  msgid "Kuanyama; Kwanyama"
-@@ -988,7 +988,7 @@
+@@ -989,7 +988,7 @@
  
  #. name for lad
  msgid "Ladino"
@@ -269,7 +280,7 @@
  
  #. name for lah
  msgid "Lahnda"
-@@ -1072,7 +1072,7 @@
+@@ -1073,7 +1072,7 @@
  
  #. name for mad
  msgid "Madurese"
@@ -278,7 +289,7 @@
  
  #. name for mag
  msgid "Magahi"
-@@ -1088,7 +1088,7 @@
+@@ -1089,7 +1088,7 @@
  
  #. name for mak
  msgid "Makasar"
@@ -287,7 +298,7 @@
  
  #. name for mal, ml
  msgid "Malayalam"
-@@ -1096,7 +1096,7 @@
+@@ -1097,7 +1096,7 @@
  
  #. name for man
  msgid "Mandingo"
@@ -296,7 +307,7 @@
  
  #. name for mri, mi
  msgid "Maori"
-@@ -1104,7 +1104,7 @@
+@@ -1105,7 +1104,7 @@
  
  #. name for map
  msgid "Austronesian (Other)"
@@ -305,7 +316,7 @@
  
  #. name for mar, mr
  msgid "Marathi"
-@@ -1143,9 +1143,8 @@
+@@ -1144,9 +1143,8 @@
  msgstr ""
  
  #. name for mis
@@ -316,7 +327,7 @@
  
  #. name for mkh
  msgid "Mon-Khmer (Other)"
-@@ -1193,7 +1192,7 @@
+@@ -1194,7 +1192,7 @@
  
  #. name for mun
  msgid "Munda languages"
@@ -325,7 +336,7 @@
  
  #. name for mus
  msgid "Creek"
-@@ -1265,7 +1264,7 @@
+@@ -1266,7 +1264,7 @@
  
  #. name for nic
  msgid "Niger-Kordofanian (Other)"
@@ -334,7 +345,7 @@
  
  #. name for niu
  msgid "Niuean"
-@@ -1309,7 +1308,7 @@
+@@ -1310,7 +1308,7 @@
  
  #. name for nya, ny
  msgid "Chichewa; Chewa; Nyanja"
@@ -343,16 +354,21 @@
  
  #. name for nym
  msgid "Nyamwezi"
-@@ -1373,7 +1372,7 @@
+@@ -1374,7 +1372,7 @@
  
  #. name for pam
- msgid "Pampanga"
+ msgid "Pampanga; Kapampangan"
 -msgstr ""
 +msgstr "pampango"
  
  #. name for pan, pa
  msgid "Panjabi; Punjabi"
-@@ -1385,7 +1384,7 @@
+@@ -1382,11 +1380,11 @@
+ 
+ #. name for pap
+ msgid "Papiamento"
+-msgstr ""
++msgstr "papiamento"
  
  #. name for pau
  msgid "Palauan"
@@ -361,7 +377,16 @@
  
  #. name for peo
  msgid "Persian, Old (ca. 600-400 B.C.)"
-@@ -1441,7 +1440,7 @@
+@@ -1398,7 +1396,7 @@
+ 
+ #. name for phi
+ msgid "Philippine (Other)"
+-msgstr ""
++msgstr "filipiński (inny)"
+ 
+ #. name for phn
+ msgid "Phoenician"
+@@ -1442,7 +1440,7 @@
  
  #. name for raj
  msgid "Rajasthani"
@@ -370,7 +395,7 @@
  
  #. name for rap
  msgid "Rapanui"
-@@ -1473,7 +1472,7 @@
+@@ -1474,7 +1472,7 @@
  
  #. name for rup
  msgid "Aromanian; Arumanian; Macedo-Romanian"
@@ -379,7 +404,7 @@
  
  #. name for rus, ru
  msgid "Russian"
-@@ -1489,7 +1488,7 @@
+@@ -1490,7 +1488,7 @@
  
  #. name for sah
  msgid "Yakut"
@@ -388,7 +413,7 @@
  
  #. name for sai
  msgid "South American Indian (Other)"
-@@ -1509,11 +1508,11 @@
+@@ -1510,11 +1508,11 @@
  
  #. name for sas
  msgid "Sasak"
@@ -402,7 +427,7 @@
  
  #. name for srp, sr
  msgid "Serbian"
-@@ -1621,7 +1620,7 @@
+@@ -1622,7 +1620,7 @@
  
  #. name for sog
  msgid "Sogdian"
@@ -411,7 +436,7 @@
  
  #. name for som, so
  msgid "Somali"
-@@ -1629,7 +1628,7 @@
+@@ -1630,7 +1628,7 @@
  
  #. name for son
  msgid "Songhai languages"
@@ -420,7 +445,7 @@
  
  #. name for sot, st
  msgid "Sotho, Southern"
-@@ -1653,7 +1652,7 @@
+@@ -1654,7 +1652,7 @@
  
  #. name for ssa
  msgid "Nilo-Saharan (Other)"
@@ -429,7 +454,16 @@
  
  #. name for ssw, ss
  msgid "Swati"
-@@ -1729,7 +1728,7 @@
+@@ -1698,7 +1696,7 @@
+ 
+ #. name for tai
+ msgid "Tai (Other)"
+-msgstr ""
++msgstr "tajski (inny)"
+ 
+ #. name for tam, ta
+ msgid "Tamil"
+@@ -1730,7 +1728,7 @@
  
  #. name for tgl, tl
  msgid "Tagalog"
@@ -438,7 +472,7 @@
  
  #. name for tha, th
  msgid "Thai"
-@@ -1897,7 +1896,7 @@
+@@ -1898,7 +1896,7 @@
  
  #. name for wen
  msgid "Sorbian languages"
@@ -447,7 +481,7 @@
  
  #. name for wln, wa
  msgid "Walloon"
-@@ -1953,7 +1952,7 @@
+@@ -1954,7 +1952,7 @@
  
  #. name for znd
  msgid "Zande languages"
@@ -456,16 +490,36 @@
  
  #. name for zul, zu
  msgid "Zulu"
-@@ -1970,6 +1969,3 @@
+@@ -1971,6 +1969,3 @@
  #. name for zza
  msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
  msgstr ""
 -
 -#~ msgid "Khmer"
 -#~ msgstr "khmerski"
---- iso-codes-1.6/iso_4217/pl.po.orig	2007-11-20 09:15:35.000000000 +0100
-+++ iso-codes-1.6/iso_4217/pl.po	2007-11-27 23:00:00.738696335 +0100
-@@ -134,7 +134,7 @@
+--- iso-codes-1.7/iso_4217/pl.po.orig	2007-12-21 11:37:30.000000000 +0100
++++ iso-codes-1.7/iso_4217/pl.po	2007-12-25 22:20:36.945459062 +0100
+@@ -70,9 +70,8 @@
+ msgstr "Dolar Barbadosu"
+ 
+ #. currency_name for BDT
+-#, fuzzy
+ msgid "Taka"
+-msgstr "Nakfa"
++msgstr "Taka"
+ 
+ #. currency_name for BGN
+ msgid "Bulgarian Lev"
+@@ -100,7 +99,7 @@
+ 
+ #. currency_name for BOV
+ msgid "Mvdol"
+-msgstr ""
++msgstr "Mvdol"
+ 
+ #. currency_name for BRL
+ msgid "Brazilian Real"
+@@ -136,7 +135,7 @@
  
  #. currency_name for CHE
  msgid "WIR Euro"
@@ -474,7 +528,7 @@
  
  #. currency_name for CHF
  msgid "Swiss Franc"
-@@ -142,11 +142,11 @@
+@@ -144,11 +143,11 @@
  
  #. currency_name for CHW
  msgid "WIR Franc"
@@ -488,7 +542,7 @@
  
  #. currency_name for CLP
  msgid "Chilean Peso"
-@@ -162,7 +162,7 @@
+@@ -164,7 +163,7 @@
  
  #. currency_name for COU
  msgid "Unidad de Valor Real"
@@ -497,16 +551,98 @@
  
  #. currency_name for CRC
  msgid "Costa Rican Colon"
-@@ -438,7 +438,7 @@
+@@ -240,7 +239,7 @@
+ 
+ #. currency_name for GHS
+ msgid "Ghana Cedi"
+-msgstr ""
++msgstr "Cedi ghańskie"
+ 
+ #. currency_name for GIP
+ msgid "Gibraltar Pound"
+@@ -279,9 +278,8 @@
+ msgstr "Kuna chorwacka"
+ 
+ #. currency_name for HTG
+-#, fuzzy
+ msgid "Gourde"
+-msgstr "Gourde haitański"
++msgstr "Gourde"
+ 
+ #. currency_name for HUF
+ msgid "Forint"
+@@ -292,7 +290,6 @@
+ msgstr "Rupia indonezyjska"
+ 
+ #. currency_name for ILS
+-#, fuzzy
+ msgid "New Israeli Sheqel"
+ msgstr "Nowy szekel izraelski"
+ 
+@@ -322,7 +319,7 @@
+ 
+ #. currency_name for JPY
+ msgid "Yen"
+-msgstr ""
++msgstr "Jen"
+ 
+ #. currency_name for KES
+ msgid "Kenyan Shilling"
+@@ -346,7 +343,7 @@
+ 
+ #. currency_name for KRW
+ msgid "Won"
+-msgstr ""
++msgstr "Won"
+ 
+ #. currency_name for KWD
+ msgid "Kuwaiti Dinar"
+@@ -446,7 +443,7 @@
  
  #. currency_name for MXV
- msgid "Mexican Unidad de Inversion (UID)"
+ msgid "Mexican Unidad de Inversion (UDI)"
 -msgstr ""
 +msgstr "UID meksykańskie"
  
  #. currency_name for MYR
  msgid "Malaysian Ringgit"
-@@ -626,11 +626,11 @@
+@@ -457,7 +454,6 @@
+ msgstr "Metical"
+ 
+ #. currency_name for NAD
+-#, fuzzy
+ msgid "Namibia Dollar"
+ msgstr "Dolar namibijski"
+ 
+@@ -507,7 +503,7 @@
+ 
+ #. currency_name for PLN
+ msgid "Zloty"
+-msgstr ""
++msgstr "Złoty"
+ 
+ #. currency_name for PYG
+ msgid "Guarani"
+@@ -518,9 +514,8 @@
+ msgstr "Rial katarski"
+ 
+ #. currency_name for RON
+-#, fuzzy
+ msgid "New Leu"
+-msgstr "Nowy zaire"
++msgstr "Nowy lej"
+ 
+ #. currency_name for RSD, historic currency_name for CSD (withdrawn unknown)
+ msgid "Serbian Dinar"
+@@ -635,7 +630,6 @@
+ msgstr "Hrywna"
+ 
+ #. currency_name for UGX
+-#, fuzzy
+ msgid "Uganda Shilling"
+ msgstr "Szyling ugandyjski"
+ 
+@@ -645,41 +639,39 @@
  
  #. currency_name for USN
  msgid "US Dollar (Next day)"
@@ -518,9 +654,43 @@
 -msgstr ""
 +msgstr "Dolar amerykański (bieżący dzień)"
  
+ #. currency_name for UYI
+ msgid "Uruguay Peso en Unidades Indexadas"
+-msgstr ""
++msgstr "Urugwajskie peso en unidades indexadas"
+ 
  #. currency_name for UYU
  msgid "Peso Uruguayo"
-@@ -669,9 +669,8 @@
+ msgstr "Peso urugwajskie"
+ 
+ #. currency_name for UZS
+-#, fuzzy
+ msgid "Uzbekistan Sum"
+ msgstr "Sum uzbecki"
+ 
+ #. currency_name for VEF
+ msgid "Bolivar Fuerte"
+-msgstr ""
++msgstr "Boliwar fuerte"
+ 
+ #. currency_name for VND
+ msgid "Dong"
+-msgstr ""
++msgstr "Dong"
+ 
+ #. currency_name for VUV
+ msgid "Vatu"
+ msgstr "Vatu"
+ 
+ #. currency_name for WST
+-#, fuzzy
+ msgid "Tala"
+-msgstr "Dalasi"
++msgstr "Tala"
+ 
+ #. currency_name for XAF
+ msgid "CFA Franc BEAC"
+@@ -694,9 +686,8 @@
  msgstr "Złoto"
  
  #. currency_name for XBA
@@ -531,7 +701,7 @@
  
  #. currency_name for XBB
  msgid "European Monetary Unit (E.M.U.-6)"
-@@ -679,11 +678,11 @@
+@@ -704,11 +695,11 @@
  
  #. currency_name for XBC
  msgid "European Unit of Account 9 (E.U.A.-9)"
@@ -545,28 +715,28 @@
  
  #. currency_name for XCD
  msgid "East Caribbean Dollar"
-@@ -691,17 +690,15 @@
+@@ -716,17 +707,15 @@
  
  #. currency_name for XDR
- msgid "Special Drawing Right"
+ msgid "SDR"
 -msgstr ""
 +msgstr "Specjalne prawa ciągnienia"
  
  #. currency_name for XFO
 -#, fuzzy
- msgid "Gold Franc"
+ msgid "Gold-Franc"
 -msgstr "Frank malijski"
 +msgstr "Frank złoty"
  
  #. currency_name for XFU
 -#, fuzzy
- msgid "UIC Franc"
+ msgid "UIC-Franc"
 -msgstr "Frank CFP"
 +msgstr "Frank UIC"
  
  #. currency_name for XOF
  msgid "CFA Franc BCEAO"
-@@ -721,7 +718,7 @@
+@@ -746,7 +735,7 @@
  
  #. currency_name for XTS
  msgid "Code for testing purposes"
@@ -575,30 +745,82 @@
  
  #. currency_name for XXX
  msgid "No currency"
-@@ -773,7 +770,7 @@
+@@ -758,7 +747,7 @@
  
- #. currency_name for ARM
+ #. currency_name for ZAR
+ msgid "Rand"
+-msgstr ""
++msgstr "Rand"
+ 
+ #. currency_name for ZWD
+ msgid "Zimbabwe Dollar"
+@@ -794,7 +783,7 @@
+ 
+ #. historic currency_name for ARM (withdrawn unknown)
  msgid "Argentine peso moneda nacional"
 -msgstr ""
 +msgstr "Peso moneda nacional argentyńskie"
  
- #. currency_name for ARL
+ #. historic currency_name for ARL (withdrawn unknown)
  msgid "Argentine peso ley"
-@@ -869,7 +866,7 @@
+@@ -886,7 +875,7 @@
  
- #. currency_name for ECV
+ #. historic currency_name for ECV (withdrawn unknown)
  msgid "Ecuador Unidad de Valor Constante UVC"
 -msgstr ""
 +msgstr "UVC ekwadorskie"
  
- #. currency_name for ESA
+ #. historic currency_name for ESA (withdrawn 1981)
  msgid "Spanish Peseta ('A' Account)"
-@@ -1089,7 +1086,7 @@
+@@ -934,7 +923,7 @@
  
- #. currency_name for XRE
+ #. historic currency_name for HRD (withdrawn 1995-01)
+ msgid "Croatian Dinar"
+-msgstr "Dinar jordański"
++msgstr "Dinar chorwacki"
+ 
+ #. historic currency_name for IEP (withdrawn 2002-03)
+ msgid "Irish Pound"
+@@ -1106,7 +1095,7 @@
+ 
+ #. historic currency_name for XRE (withdrawn 1999-11)
  msgid "RINET Funds Code"
 -msgstr ""
 +msgstr "Kod funduszu RINET"
  
- #. currency_name for YDD
+ #. historic currency_name for YDD (withdrawn 1991-09)
  msgid "Yemeni Dinar"
+@@ -1127,33 +1116,3 @@
+ #. historic currency_name for ZRZ (withdrawn 1994-02)
+ msgid "Zaire"
+ msgstr "Zaire"
+-
+-#~ msgid "Bangladeshi Taka"
+-#~ msgstr "Taka bangladeska"
+-
+-#~ msgid "Bolivian Mvdol"
+-#~ msgstr "Mvdol boliwijski"
+-
+-#~ msgid "Japanese Yen"
+-#~ msgstr "Jen japoński"
+-
+-#~ msgid "South Korean Won"
+-#~ msgstr "Won Południowokoreański"
+-
+-#~ msgid "Polish Zloty"
+-#~ msgstr "Złoty polski"
+-
+-#~ msgid "Romanian New Leu"
+-#~ msgstr "Nowy lej rumuński"
+-
+-#~ msgid "Vietnamese đồng"
+-#~ msgstr "Dong wietnamski"
+-
+-#~ msgid "Samoan Tala"
+-#~ msgstr "Tala Samoańska"
+-
+-#~ msgid "South African Rand"
+-#~ msgstr "Rand południowoafrykański"
+-
+-#~ msgid "Zambian Kwacha"
+-#~ msgstr "Kwacha zambijska"
