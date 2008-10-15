@@ -1,20 +1,29 @@
---- iso-codes-2.0/iso_3166/pl.po.orig	2008-03-08 16:01:55.000000000 +0100
-+++ iso-codes-2.0/iso_3166/pl.po	2008-03-22 20:37:22.665648306 +0100
+--- iso-codes-3.3/iso_3166/pl.po.orig	2008-08-28 08:57:37.000000000 +0200
++++ iso-codes-3.3/iso_3166/pl.po	2008-10-15 23:21:08.138635659 +0200
 @@ -12,11 +12,11 @@
- # 
+ #
  msgid ""
  msgstr ""
--"Project-Id-Version: iso_3166 1.8\n"
-+"Project-Id-Version: iso_3166 2.0\n"
+-"Project-Id-Version: iso_3166 3.1\n"
++"Project-Id-Version: iso_3166 3.3\n"
  "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
  "debian.org>\n"
- "POT-Creation-Date: 2008-01-03 10:48+0100\n"
+ "POT-Creation-Date: 2008-07-01 16:14+0200\n"
 -"PO-Revision-Date: 2007-09-20 12:01+0200\n"
-+"PO-Revision-Date: 2008-03-22 20:32+0100\n"
++"PO-Revision-Date: 2008-10-15 23:11+0200\n"
  "Last-Translator: Andrzej M. Krzysztofowicz <ankry@mif.pg.gda.pl>\n"
  "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
  "MIME-Version: 1.0\n"
-@@ -1253,7 +1253,7 @@
+@@ -981,7 +981,7 @@
+ 
+ #. name for MDA
+ msgid "Moldova"
+-msgstr ""
++msgstr "Mołdawia"
+ 
+ #. official_name for MDA
+ msgid "Republic of Moldova"
+@@ -1249,7 +1249,7 @@
  
  #. name for BLM
  msgid "Saint Barthélemy"
@@ -23,7 +32,7 @@
  
  #. name for SHN
  msgid "Saint Helena"
-@@ -1269,7 +1269,7 @@
+@@ -1265,7 +1265,7 @@
  
  #. name for MAF
  msgid "Saint Martin (French part)"
@@ -32,7 +41,7 @@
  
  #. name for SPM
  msgid "Saint Pierre and Miquelon"
-@@ -1787,7 +1787,7 @@
+@@ -1783,7 +1783,7 @@
  
  #. historic names for PUS (withdrawn 1986)
  msgid "US Miscellaneous Pacific Islands"
@@ -41,19 +50,19 @@
  
  #. historic names for SUN (withdrawn 1992-08-30)
  msgid "USSR, Union of Soviet Socialist Republics"
---- iso-codes-2.0/iso_639/pl.po.orig	2008-03-08 16:01:48.000000000 +0100
-+++ iso-codes-2.0/iso_639/pl.po	2008-03-22 22:52:32.147785546 +0100
+--- iso-codes-3.3/iso_639/pl.po.orig	2008-08-28 08:57:35.000000000 +0200
++++ iso-codes-3.3/iso_639/pl.po	2008-10-15 23:27:31.522631469 +0200
 @@ -11,11 +11,11 @@
  #
  msgid ""
  msgstr ""
--"Project-Id-Version: iso_639 1.9\n"
-+"Project-Id-Version: iso_639 2.0\n"
+-"Project-Id-Version: iso_639 3.2\n"
++"Project-Id-Version: iso_639 3.3\n"
  "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
  "debian.org>\n"
- "POT-Creation-Date: 2008-03-08 12:39+0100\n"
+ "POT-Creation-Date: 2008-08-26 09:51+0200\n"
 -"PO-Revision-Date: 2007-11-24 22:55+0200\n"
-+"PO-Revision-Date: 2008-03-22 22:50+0100\n"
++"PO-Revision-Date: 2008-10-15 23:21+0200\n"
  "Last-Translator: Andrzej M. Krzysztofowicz <ankry@mif.pg.gda.pl>\n"
  "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
  "MIME-Version: 1.0\n"
@@ -325,7 +334,7 @@
  
  #. name for grb
  msgid "Grebo"
-@@ -760,11 +760,11 @@
+@@ -764,11 +764,11 @@
  
  #. name for iba
  msgid "Iban"
@@ -339,7 +348,7 @@
  
  #. name for isl, is
  msgid "Icelandic"
-@@ -780,20 +780,19 @@
+@@ -784,20 +784,19 @@
  
  #. name for ijo
  msgid "Ijo languages"
@@ -363,7 +372,7 @@
  
  #. name for ina, ia
  msgid "Interlingua (International Auxiliary Language Association)"
-@@ -801,7 +800,7 @@
+@@ -805,7 +804,7 @@
  
  #. name for inc
  msgid "Indic (Other)"
@@ -372,7 +381,7 @@
  
  #. name for ind, id
  msgid "Indonesian"
-@@ -825,7 +824,7 @@
+@@ -829,7 +828,7 @@
  
  #. name for iro
  msgid "Iroquoian languages"
@@ -381,7 +390,7 @@
  
  #. name for ita, it
  msgid "Italian"
-@@ -877,7 +876,7 @@
+@@ -881,7 +880,7 @@
  
  #. name for kar
  msgid "Karen languages"
@@ -390,7 +399,7 @@
  
  #. name for kas, ks
  msgid "Kashmiri"
-@@ -901,7 +900,7 @@
+@@ -905,7 +904,7 @@
  
  #. name for kha
  msgid "Khasi"
@@ -399,7 +408,7 @@
  
  #. name for khi
  msgid "Khoisan (Other)"
-@@ -909,7 +908,7 @@
+@@ -913,7 +912,7 @@
  
  #. name for khm, km
  msgid "Central Khmer"
@@ -408,7 +417,7 @@
  
  #. name for kho
  msgid "Khotanese"
-@@ -961,15 +960,15 @@
+@@ -965,15 +964,15 @@
  
  #. name for krl
  msgid "Karelian"
@@ -427,7 +436,7 @@
  
  #. name for kua, kj
  msgid "Kuanyama; Kwanyama"
-@@ -989,7 +988,7 @@
+@@ -993,7 +992,7 @@
  
  #. name for lad
  msgid "Ladino"
@@ -436,7 +445,7 @@
  
  #. name for lah
  msgid "Lahnda"
-@@ -1073,7 +1072,7 @@
+@@ -1077,7 +1076,7 @@
  
  #. name for mad
  msgid "Madurese"
@@ -445,7 +454,7 @@
  
  #. name for mag
  msgid "Magahi"
-@@ -1089,7 +1088,7 @@
+@@ -1093,7 +1092,7 @@
  
  #. name for mak
  msgid "Makasar"
@@ -454,7 +463,7 @@
  
  #. name for mal, ml
  msgid "Malayalam"
-@@ -1097,7 +1096,7 @@
+@@ -1101,7 +1100,7 @@
  
  #. name for man
  msgid "Mandingo"
@@ -463,7 +472,7 @@
  
  #. name for mri, mi
  msgid "Maori"
-@@ -1105,7 +1104,7 @@
+@@ -1109,7 +1108,7 @@
  
  #. name for map
  msgid "Austronesian (Other)"
@@ -472,7 +481,7 @@
  
  #. name for mar, mr
  msgid "Marathi"
-@@ -1144,9 +1143,8 @@
+@@ -1148,9 +1147,8 @@
  msgstr ""
  
  #. name for mis
@@ -483,7 +492,7 @@
  
  #. name for mkh
  msgid "Mon-Khmer (Other)"
-@@ -1174,7 +1172,7 @@
+@@ -1178,7 +1176,7 @@
  
  #. name for moh
  msgid "Mohawk"
@@ -491,8 +500,8 @@
 +msgstr "mohawk"
  
  #. name for mol, mo
- msgid "Moldavian"
-@@ -1194,7 +1192,7 @@
+ msgid "Moldavian; Moldovan"
+@@ -1198,7 +1196,7 @@
  
  #. name for mun
  msgid "Munda languages"
@@ -501,7 +510,7 @@
  
  #. name for mus
  msgid "Creek"
-@@ -1266,7 +1264,7 @@
+@@ -1270,7 +1268,7 @@
  
  #. name for nic
  msgid "Niger-Kordofanian (Other)"
@@ -510,7 +519,7 @@
  
  #. name for niu
  msgid "Niuean"
-@@ -1310,7 +1308,7 @@
+@@ -1314,7 +1312,7 @@
  
  #. name for nya, ny
  msgid "Chichewa; Chewa; Nyanja"
@@ -519,7 +528,18 @@
  
  #. name for nym
  msgid "Nyamwezi"
-@@ -1374,7 +1372,7 @@
+@@ -1333,9 +1331,8 @@
+ msgstr ""
+ 
+ #. name for oci, oc
+-#, fuzzy
+ msgid "Occitan (post 1500)"
+-msgstr "okcytański (po 1500); prowansalski"
++msgstr "okcytański (po 1500)"
+ 
+ #. name for oji, oj
+ msgid "Ojibwa"
+@@ -1379,7 +1376,7 @@
  
  #. name for pam
  msgid "Pampanga; Kapampangan"
@@ -528,7 +548,7 @@
  
  #. name for pan, pa
  msgid "Panjabi; Punjabi"
-@@ -1382,11 +1380,11 @@
+@@ -1387,11 +1384,11 @@
  
  #. name for pap
  msgid "Papiamento"
@@ -542,7 +562,7 @@
  
  #. name for peo
  msgid "Persian, Old (ca. 600-400 B.C.)"
-@@ -1398,11 +1396,11 @@
+@@ -1403,11 +1400,11 @@
  
  #. name for phi
  msgid "Philippine (Other)"
@@ -556,7 +576,7 @@
  
  #. name for pli, pi
  msgid "Pali"
-@@ -1422,14 +1420,13 @@
+@@ -1427,15 +1424,13 @@
  
  #. name for pra
  msgid "Prakrit languages"
@@ -564,15 +584,17 @@
 +msgstr "prakryty"
  
  #. name for pro
- msgid "Provençal, Old (to 1500)"
- msgstr "prowansalski, średniowieczny (do 1500)"
+-#, fuzzy
+ msgid "Provençal, Old (to 1500); Occitan, Old (to 1500)"
+-msgstr "prowansalski, średniowieczny (do 1500)"
++msgstr "prowansalski, średniowieczny (do 1500); okcytański, średniowieczny (do 1500)"
  
  #. name for pus, ps
 -#, fuzzy
  msgid "Pushto; Pashto"
  msgstr "paszto; pasztuński"
  
-@@ -1443,7 +1440,7 @@
+@@ -1449,14 +1444,13 @@
  
  #. name for raj
  msgid "Rajasthani"
@@ -581,7 +603,14 @@
  
  #. name for rap
  msgid "Rapanui"
-@@ -1475,7 +1472,7 @@
+ msgstr "rapanui"
+ 
+ #. name for rar
+-#, fuzzy
+ msgid "Rarotongan; Cook Islands Maori"
+ msgstr "rarotonga; maoryski Wyspy Cooka"
+ 
+@@ -1482,7 +1476,7 @@
  
  #. name for rup
  msgid "Aromanian; Arumanian; Macedo-Romanian"
@@ -590,7 +619,7 @@
  
  #. name for rus, ru
  msgid "Russian"
-@@ -1491,7 +1488,7 @@
+@@ -1498,7 +1492,7 @@
  
  #. name for sah
  msgid "Yakut"
@@ -599,7 +628,7 @@
  
  #. name for sai
  msgid "South American Indian (Other)"
-@@ -1511,11 +1508,11 @@
+@@ -1518,11 +1512,11 @@
  
  #. name for sas
  msgid "Sasak"
@@ -611,9 +640,9 @@
 -msgstr ""
 +msgstr "santali"
  
- #. name for srp, sr
- msgid "Serbian"
-@@ -1547,7 +1544,7 @@
+ #. name for scn
+ msgid "Sicilian"
+@@ -1546,7 +1540,7 @@
  
  #. name for sgn
  msgid "Sign Languages"
@@ -622,7 +651,7 @@
  
  #. name for shn
  msgid "Shan"
-@@ -1583,15 +1580,15 @@
+@@ -1582,15 +1576,15 @@
  
  #. name for sma
  msgid "Southern Sami"
@@ -641,7 +670,7 @@
  
  #. name for smj
  msgid "Lule Sami"
-@@ -1623,7 +1620,7 @@
+@@ -1622,7 +1616,7 @@
  
  #. name for sog
  msgid "Sogdian"
@@ -650,7 +679,7 @@
  
  #. name for som, so
  msgid "Somali"
-@@ -1631,7 +1628,7 @@
+@@ -1630,7 +1624,7 @@
  
  #. name for son
  msgid "Songhai languages"
@@ -659,7 +688,7 @@
  
  #. name for sot, st
  msgid "Sotho, Southern"
-@@ -1655,7 +1652,7 @@
+@@ -1658,7 +1652,7 @@
  
  #. name for ssa
  msgid "Nilo-Saharan (Other)"
@@ -668,7 +697,7 @@
  
  #. name for ssw, ss
  msgid "Swati"
-@@ -1687,11 +1684,11 @@
+@@ -1690,11 +1684,11 @@
  
  #. name for syc
  msgid "Classical Syriac"
@@ -682,7 +711,7 @@
  
  #. name for tah, ty
  msgid "Tahitian"
-@@ -1699,7 +1696,7 @@
+@@ -1702,7 +1696,7 @@
  
  #. name for tai
  msgid "Tai (Other)"
@@ -691,7 +720,7 @@
  
  #. name for tam, ta
  msgid "Tamil"
-@@ -1731,7 +1728,7 @@
+@@ -1734,7 +1728,7 @@
  
  #. name for tgl, tl
  msgid "Tagalog"
@@ -700,7 +729,7 @@
  
  #. name for tha, th
  msgid "Thai"
-@@ -1831,7 +1828,7 @@
+@@ -1834,7 +1828,7 @@
  
  #. name for uga
  msgid "Ugaritic"
@@ -709,7 +738,7 @@
  
  #. name for uig, ug
  msgid "Uighur; Uyghur"
-@@ -1899,7 +1896,7 @@
+@@ -1902,7 +1896,7 @@
  
  #. name for wen
  msgid "Sorbian languages"
@@ -718,7 +747,7 @@
  
  #. name for wln, wa
  msgid "Walloon"
-@@ -1955,7 +1952,7 @@
+@@ -1958,7 +1952,7 @@
  
  #. name for znd
  msgid "Zande languages"
@@ -727,29 +756,35 @@
  
  #. name for zul, zu
  msgid "Zulu"
-@@ -1971,4 +1968,4 @@
+@@ -1969,10 +1963,9 @@
+ msgstr ""
+ 
+ #. name for zxx
+-#, fuzzy
+ msgid "No linguistic content; Not applicable"
+ msgstr "Brak kontekstu językowego"
  
  #. name for zza
  msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
 -msgstr ""
 +msgstr "zazaki"
---- iso-codes-2.0/iso_4217/pl.po.orig	2008-03-08 16:01:49.000000000 +0100
-+++ iso-codes-2.0/iso_4217/pl.po	2008-03-22 20:40:07.871067016 +0100
-@@ -10,11 +10,11 @@
- #
+--- iso-codes-3.3/iso_4217/pl.po.orig	2008-08-28 08:57:35.000000000 +0200
++++ iso-codes-3.3/iso_4217/pl.po	2008-10-15 23:22:14.034633145 +0200
+@@ -7,11 +7,11 @@
+ # Andrzej M. Krzysztofowicz <ankry@mif.pg.gda.pl>, 2007.
  msgid ""
  msgstr ""
--"Project-Id-Version: iso_4217 1.8\n"
-+"Project-Id-Version: iso_4217 2.0\n"
+-"Project-Id-Version: iso_4217-3.1\n"
++"Project-Id-Version: iso_4217-3.3\n"
  "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
  "debian.org>\n"
- "POT-Creation-Date: 2008-01-07 10:04+0100\n"
+ "POT-Creation-Date: 2008-07-01 16:16+0200\n"
 -"PO-Revision-Date: 2007-10-12 22:25+0100\n"
-+"PO-Revision-Date: 2008-03-22 20:36+0100\n"
++"PO-Revision-Date: 2008-10-15 23:21+0200\n"
  "Last-Translator: Andrzej M. Krzysztofowicz <ankry@mif.pg.gda.pl>\n"
  "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
  "MIME-Version: 1.0\n"
-@@ -70,9 +70,8 @@
+@@ -67,9 +67,8 @@
  msgstr "Dolar Barbadosu"
  
  #. currency_name for BDT
@@ -760,7 +795,7 @@
  
  #. currency_name for BGN
  msgid "Bulgarian Lev"
-@@ -100,7 +99,7 @@
+@@ -97,7 +96,7 @@
  
  #. currency_name for BOV
  msgid "Mvdol"
@@ -769,7 +804,7 @@
  
  #. currency_name for BRL
  msgid "Brazilian Real"
-@@ -136,7 +135,7 @@
+@@ -133,7 +132,7 @@
  
  #. currency_name for CHE
  msgid "WIR Euro"
@@ -778,7 +813,7 @@
  
  #. currency_name for CHF
  msgid "Swiss Franc"
-@@ -144,11 +143,11 @@
+@@ -141,11 +140,11 @@
  
  #. currency_name for CHW
  msgid "WIR Franc"
@@ -792,7 +827,7 @@
  
  #. currency_name for CLP
  msgid "Chilean Peso"
-@@ -164,7 +163,7 @@
+@@ -161,7 +160,7 @@
  
  #. currency_name for COU
  msgid "Unidad de Valor Real"
@@ -801,7 +836,7 @@
  
  #. currency_name for CRC
  msgid "Costa Rican Colon"
-@@ -240,7 +239,7 @@
+@@ -237,7 +236,7 @@
  
  #. currency_name for GHS
  msgid "Ghana Cedi"
@@ -810,7 +845,7 @@
  
  #. currency_name for GIP
  msgid "Gibraltar Pound"
-@@ -275,9 +274,8 @@
+@@ -272,9 +271,8 @@
  msgstr "Kuna chorwacka"
  
  #. currency_name for HTG
@@ -821,7 +856,7 @@
  
  #. currency_name for HUF
  msgid "Forint"
-@@ -288,7 +286,6 @@
+@@ -285,7 +283,6 @@
  msgstr "Rupia indonezyjska"
  
  #. currency_name for ILS
@@ -829,7 +864,7 @@
  msgid "New Israeli Sheqel"
  msgstr "Nowy szekel izraelski"
  
-@@ -318,7 +315,7 @@
+@@ -315,7 +312,7 @@
  
  #. currency_name for JPY
  msgid "Yen"
@@ -838,7 +873,7 @@
  
  #. currency_name for KES
  msgid "Kenyan Shilling"
-@@ -342,7 +339,7 @@
+@@ -339,7 +336,7 @@
  
  #. currency_name for KRW
  msgid "Won"
@@ -847,7 +882,7 @@
  
  #. currency_name for KWD
  msgid "Kuwaiti Dinar"
-@@ -442,7 +439,7 @@
+@@ -439,7 +436,7 @@
  
  #. currency_name for MXV
  msgid "Mexican Unidad de Inversion (UDI)"
@@ -856,7 +891,7 @@
  
  #. currency_name for MYR
  msgid "Malaysian Ringgit"
-@@ -453,7 +450,6 @@
+@@ -450,7 +447,6 @@
  msgstr "Metical"
  
  #. currency_name for NAD
@@ -864,7 +899,7 @@
  msgid "Namibia Dollar"
  msgstr "Dolar namibijski"
  
-@@ -503,7 +499,7 @@
+@@ -500,7 +496,7 @@
  
  #. currency_name for PLN
  msgid "Zloty"
@@ -873,7 +908,7 @@
  
  #. currency_name for PYG
  msgid "Guarani"
-@@ -514,9 +510,8 @@
+@@ -511,9 +507,8 @@
  msgstr "Rial katarski"
  
  #. currency_name for RON
@@ -884,7 +919,7 @@
  
  #. currency_name for RSD, historic currency_name for CSD (withdrawn unknown)
  msgid "Serbian Dinar"
-@@ -631,7 +626,6 @@
+@@ -628,7 +623,6 @@
  msgstr "Hrywna"
  
  #. currency_name for UGX
@@ -892,7 +927,7 @@
  msgid "Uganda Shilling"
  msgstr "Szyling ugandyjski"
  
-@@ -641,41 +635,39 @@
+@@ -638,41 +632,39 @@
  
  #. currency_name for USN
  msgid "US Dollar (Next day)"
@@ -940,7 +975,7 @@
  
  #. currency_name for XAF
  msgid "CFA Franc BEAC"
-@@ -690,9 +682,8 @@
+@@ -687,9 +679,8 @@
  msgstr "Złoto"
  
  #. currency_name for XBA
@@ -951,7 +986,7 @@
  
  #. currency_name for XBB
  msgid "European Monetary Unit (E.M.U.-6)"
-@@ -700,11 +691,11 @@
+@@ -697,11 +688,11 @@
  
  #. currency_name for XBC
  msgid "European Unit of Account 9 (E.U.A.-9)"
@@ -965,7 +1000,7 @@
  
  #. currency_name for XCD
  msgid "East Caribbean Dollar"
-@@ -712,17 +703,15 @@
+@@ -709,17 +700,15 @@
  
  #. currency_name for XDR
  msgid "SDR"
@@ -986,7 +1021,7 @@
  
  #. currency_name for XOF
  msgid "CFA Franc BCEAO"
-@@ -742,7 +731,7 @@
+@@ -739,7 +728,7 @@
  
  #. currency_name for XTS
  msgid "Code for testing purposes"
@@ -995,7 +1030,7 @@
  
  #. currency_name for XXX
  msgid "No currency"
-@@ -754,7 +743,7 @@
+@@ -751,7 +740,7 @@
  
  #. currency_name for ZAR
  msgid "Rand"
@@ -1004,7 +1039,7 @@
  
  #. currency_name for ZWD
  msgid "Zimbabwe Dollar"
-@@ -790,7 +779,7 @@
+@@ -787,7 +776,7 @@
  
  #. historic currency_name for ARM (withdrawn unknown)
  msgid "Argentine peso moneda nacional"
@@ -1013,7 +1048,7 @@
  
  #. historic currency_name for ARL (withdrawn unknown)
  msgid "Argentine peso ley"
-@@ -882,7 +871,7 @@
+@@ -879,7 +868,7 @@
  
  #. historic currency_name for ECV (withdrawn unknown)
  msgid "Ecuador Unidad de Valor Constante UVC"
@@ -1022,7 +1057,7 @@
  
  #. historic currency_name for ESA (withdrawn 1981)
  msgid "Spanish Peseta ('A' Account)"
-@@ -934,7 +923,7 @@
+@@ -931,7 +920,7 @@
  
  #. historic currency_name for HRD (withdrawn 1995-01)
  msgid "Croatian Dinar"
@@ -1031,7 +1066,7 @@
  
  #. historic currency_name for IEP (withdrawn 2002-03)
  msgid "Irish Pound"
-@@ -1106,7 +1095,7 @@
+@@ -1103,7 +1092,7 @@
  
  #. historic currency_name for XRE (withdrawn 1999-11)
  msgid "RINET Funds Code"
@@ -1040,23 +1075,27 @@
  
  #. historic currency_name for YDD (withdrawn 1991-09)
  msgid "Yemeni Dinar"
---- iso-codes-2.0/iso_15924/pl.po.orig	2008-03-08 16:01:48.000000000 +0100
-+++ iso-codes-2.0/iso_15924/pl.po	2008-03-23 00:36:22.898851624 +0100
-@@ -7,11 +7,11 @@
+--- iso-codes-3.3/iso_15924/pl.po.orig	2008-08-28 08:57:35.000000000 +0200
++++ iso-codes-3.3/iso_15924/pl.po	2008-10-15 23:19:20.978634821 +0200
+@@ -7,69 +7,68 @@
  #     Translations taken from ICU SVN on 2007-09-09
  msgid ""
  msgstr ""
--"Project-Id-Version: iso_15924 1.8\n"
-+"Project-Id-Version: iso_15924 2.0\n"
+-"Project-Id-Version: iso_15924 3.1\n"
++"Project-Id-Version: iso_15924 3.3\n"
  "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth."
  "debian.org>\n"
- "POT-Creation-Date: 2007-12-03 12:29+0100\n"
+ "POT-Creation-Date: 2008-07-01 15:51+0200\n"
 -"PO-Revision-Date: 2007-09-09 16:07+0200\n"
-+"PO-Revision-Date: 2008-03-22 22:50+0100\n"
- "Last-Translator: Tobias Toedter <t.toedter@gmx.net>\n"
- "Language-Team: Polish\n"
+-"Last-Translator: Tobias Toedter <t.toedter@gmx.net>\n"
+-"Language-Team: Polish\n"
++"PO-Revision-Date: 2008-10-15 22:56+0200\n"
++"Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
++"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
  "MIME-Version: 1.0\n"
-@@ -21,15 +21,15 @@
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: KBabel 1.11.4\n"
  
  #. name for Arab
  msgid "Arabic"
@@ -1075,7 +1114,8 @@
  
  #. name for Avst
  msgid "Avestan"
-@@ -37,31 +37,31 @@
+-msgstr ""
++msgstr "awestański"
  
  #. name for Bali
  msgid "Balinese"
@@ -1114,7 +1154,8 @@
  
  #. name for Bugi
  msgid "Buginese"
-@@ -69,7 +69,7 @@
+-msgstr ""
++msgstr "bugiński"
  
  #. name for Buhd
  msgid "Buhid"
@@ -1123,7 +1164,7 @@
  
  #. name for Cakm
  msgid "Chakma"
-@@ -77,7 +77,7 @@
+@@ -77,7 +76,7 @@
  
  #. name for Cans
  msgid "Unified Canadian Aboriginal Syllabics"
@@ -1132,7 +1173,7 @@
  
  #. name for Cari
  msgid "Carian"
-@@ -85,19 +85,19 @@
+@@ -85,19 +84,19 @@
  
  #. name for Cham
  msgid "Cham"
@@ -1156,7 +1197,7 @@
  
  #. name for Cprt
  msgid "Cypriot"
-@@ -105,43 +105,39 @@
+@@ -105,43 +104,39 @@
  
  #. name for Cyrl
  msgid "Cyrillic"
@@ -1209,7 +1250,7 @@
  
  #. name for Geok
  msgid "Khutsuri (Asomtavruli and Nuskhuri)"
-@@ -149,65 +145,63 @@
+@@ -149,65 +144,63 @@
  
  #. name for Glag
  msgid "Glagolitic"
@@ -1290,7 +1331,7 @@
  
  #. name for Inds
  msgid "Indus (Harappan)"
-@@ -215,39 +209,39 @@
+@@ -215,125 +208,123 @@
  
  #. name for Ital
  msgid "Old Italic (Etruscan, Oscan, etc.)"
@@ -1338,8 +1379,10 @@
 +msgstr "koreański (alias dla hangyla i hancha)"
  
  #. name for Kthi
- #, fuzzy
-@@ -256,11 +250,11 @@
+-#, fuzzy
+ msgid "Kaithi"
+-msgstr "Kharoshthi"
++msgstr "kaithi"
  
  #. name for Lana
  msgid "Lanna, Tai Tham"
@@ -1353,7 +1396,13 @@
  
  #. name for Latf
  msgid "Latin (Fraktur variant)"
-@@ -272,24 +266,23 @@
+-msgstr ""
++msgstr "łaciński (fraktura)"
+ 
+ #. name for Latg
+ msgid "Latin (Gaelic variant)"
+-msgstr ""
++msgstr "łaciński gaelicki"
  
  #. name for Latn
  msgid "Latin"
@@ -1383,7 +1432,8 @@
  
  #. name for Lyci
  msgid "Lycian"
-@@ -297,11 +290,11 @@
+-msgstr ""
++msgstr "licyjski"
  
  #. name for Lydi
  msgid "Lydian"
@@ -1397,7 +1447,8 @@
  
  #. name for Mani
  msgid "Manichaean"
-@@ -309,7 +302,7 @@
+-msgstr ""
++msgstr "manichejski"
  
  #. name for Maya
  msgid "Mayan hieroglyphs"
@@ -1406,7 +1457,8 @@
  
  #. name for Mero
  msgid "Meroitic"
-@@ -317,23 +310,23 @@
+-msgstr ""
++msgstr "meroicki"
  
  #. name for Mlym
  msgid "Malayalam"
@@ -1435,7 +1487,7 @@
  
  #. name for Nkoo
  msgid "N’Ko"
-@@ -341,19 +334,19 @@
+@@ -341,19 +332,19 @@
  
  #. name for Ogam
  msgid "Ogham"
@@ -1459,7 +1511,7 @@
  
  #. name for Osma
  msgid "Osmanya"
-@@ -361,17 +354,17 @@
+@@ -361,108 +352,107 @@
  
  #. name for Perm
  msgid "Old Permic"
@@ -1473,14 +1525,18 @@
  
  #. name for Phli
  msgid "Inscriptional Pahlavi"
- msgstr ""
+-msgstr ""
++msgstr "pahlawi inskrypcyjny"
  
--#. name for Phlv
-+#. name for Phlp
+ #. name for Phlp
  msgid "Psalter Pahlavi"
- msgstr ""
+-msgstr ""
++msgstr "pahlawi psałterzowy"
  
-@@ -381,11 +374,11 @@
+ #. name for Phlv
+ msgid "Book Pahlavi"
+-msgstr ""
++msgstr "pahlawi książkowy"
  
  #. name for Phnx
  msgid "Phoenician"
@@ -1493,8 +1549,10 @@
 +msgstr "fonetyczny Pollarda"
  
  #. name for Prti
- #, fuzzy
-@@ -394,23 +387,23 @@
+-#, fuzzy
+ msgid "Inscriptional Parthian"
+-msgstr "Tradycyjny Han"
++msgstr "partyjski inskrypcyjny"
  
  #. name for Qaaa
  msgid "Reserved for private use (start)"
@@ -1523,7 +1581,8 @@
  
  #. name for Samr
  msgid "Samaritan"
-@@ -418,11 +411,11 @@
+-msgstr ""
++msgstr "samarytański"
  
  #. name for Sara
  msgid "Sarati"
@@ -1537,7 +1596,13 @@
  
  #. name for Sgnw
  msgid "SignWriting"
-@@ -434,7 +427,7 @@
+-msgstr ""
++msgstr "znakowy"
+ 
+ #. name for Shaw
+ msgid "Shavian (Shaw)"
+-msgstr ""
++msgstr "shawa"
  
  #. name for Sinh
  msgid "Sinhala"
@@ -1546,7 +1611,8 @@
  
  #. name for Sund
  msgid "Sundanese"
-@@ -442,27 +435,27 @@
+-msgstr ""
++msgstr "sundajski"
  
  #. name for Sylo
  msgid "Syloti Nagri"
@@ -1580,7 +1646,7 @@
  
  #. name for Tale
  msgid "Tai Le"
-@@ -474,7 +467,7 @@
+@@ -474,7 +464,7 @@
  
  #. name for Taml
  msgid "Tamil"
@@ -1589,7 +1655,7 @@
  
  #. name for Tavt
  msgid "Tai Viet"
-@@ -482,36 +475,35 @@
+@@ -482,36 +472,35 @@
  
  #. name for Telu
  msgid "Telugu"
@@ -1634,7 +1700,12 @@
  
  #. name for Vaii
  msgid "Vai"
-@@ -523,11 +515,11 @@
+@@ -519,15 +508,15 @@
+ 
+ #. name for Visp
+ msgid "Visible Speech"
+-msgstr ""
++msgstr "migowy"
  
  #. name for Xpeo
  msgid "Old Persian"
@@ -1648,12 +1719,12 @@
  
  #. name for Yiii
  msgid "Yi"
-@@ -535,20 +527,20 @@
+@@ -535,20 +524,20 @@
  
  #. name for Zmth
  msgid "Mathematical notation"
 -msgstr ""
-+msgstr "oznaczenia matematyczne"
++msgstr "notacja matematyczna"
  
  #. name for Zsym
  msgid "Symbols"
