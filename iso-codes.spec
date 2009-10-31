@@ -1,26 +1,22 @@
-# TODO:
-# - finish pl :)
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	3.3
+Version:	3.11
 Release:	1
-License:	LGPL
+License:	LGPL v2+
 Group:		Applications/Text
 Source0:	ftp://pkg-isocodes.alioth.debian.org/pub/pkg-isocodes/%{name}-%{version}.tar.bz2
-# Source0-md5:	2fb4f5400f28923d679d7b98fd7f3ab8
-Patch0:		%{name}-pl.patch
+# Source0-md5:	29d5526d963a6ecdac40772fac9fe6bb
 URL:		http://pkg-isocodes.alioth.debian.org/
-BuildRequires:	autoconf
+BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	python-PyXML
+BuildRequires:	rpmbuild(macros) >= 1.446
 Requires:	FHS >= 2.3-16
 Conflicts:	pkgconfig < 1:0.19
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_noarchpkgconfigdir	%{_datadir}/pkgconfig
 
 %description
 This package aims to provide the list of the country and language (and
@@ -32,7 +28,6 @@ walut) w jednym miejscu, zamiast powtarzania ich w wielu programach.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__aclocal}
@@ -47,7 +42,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-rm -rf $RPM_BUILD_ROOT%{_datadir}/locale/{dv,haw,kok,ps,syr}
+rm -rf $RPM_BUILD_ROOT%{_datadir}/locale/{dv,haw,kok,syr}
 
 %find_lang %{name} --all-name
 
@@ -57,6 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc ChangeLog README TODO
-%{_datadir}/iso-codes
 %{_datadir}/xml/iso-codes
-%{_noarchpkgconfigdir}/iso-codes.pc
+%{_npkgconfigdir}/iso-codes.pc
