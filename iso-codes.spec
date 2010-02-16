@@ -2,7 +2,7 @@ Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
 Version:	3.12.1
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Applications/Text
 Source0:	ftp://pkg-isocodes.alioth.debian.org/pub/pkg-isocodes/%{name}-%{version}.tar.bz2
@@ -42,7 +42,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-rm -rf $RPM_BUILD_ROOT%{_datadir}/locale/{dv,haw,kok,syr}
+rm -rf $RPM_BUILD_ROOT%{_datadir}/locale/{haw,kok,syr}
 
 %find_lang %{name} --all-name
 
