@@ -11,7 +11,6 @@ URL:		http://pkg-isocodes.alioth.debian.org/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	gettext-devel
-BuildRequires:	python-PyXML
 BuildRequires:	rpmbuild(macros) >= 1.446
 Requires:	FHS >= 2.3-16
 Conflicts:	pkgconfig < 1:0.19
