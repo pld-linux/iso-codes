@@ -1,12 +1,12 @@
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	3.24
+Version:	3.24.1
 Release:	1
 License:	LGPL v2+
 Group:		Applications/Text
 Source0:	ftp://pkg-isocodes.alioth.debian.org/pub/pkg-isocodes/%{name}-%{version}.tar.bz2
-# Source0-md5:	7e78301cc9b8afb94434ba6f0371adbc
+# Source0-md5:	19a346a85d13d1dd3c47c46f32987784
 URL:		http://pkg-isocodes.alioth.debian.org/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
