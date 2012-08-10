@@ -1,17 +1,19 @@
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	3.25.1
+Version:	3.38
 Release:	1
 License:	LGPL v2+
 Group:		Applications/Text
-Source0:	ftp://pkg-isocodes.alioth.debian.org/pub/pkg-isocodes/%{name}-%{version}.tar.bz2
-# Source0-md5:	4e5620cc9e64b64ebcce0a00e22a22f7
+Source0:	http://pkg-isocodes.alioth.debian.org/downloads/%{name}-%{version}.tar.xz
+# Source0-md5:	df8dacc718116dae3db453a4d85c018a
 URL:		http://pkg-isocodes.alioth.debian.org/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	rpmbuild(macros) >= 1.446
+BuildRequires:	tar >= 1:1.22
+BuildRequires:	xz
 Requires:	FHS >= 2.3-16
 Conflicts:	pkgconfig < 1:0.19
 BuildArch:	noarch
@@ -41,7 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-rm -rf $RPM_BUILD_ROOT%{_datadir}/locale/{haw,kok,syr}
+rm -rf $RPM_BUILD_ROOT%{_localedir}/{haw,kok,syr}
 
 %find_lang %{name} --all-name
 
