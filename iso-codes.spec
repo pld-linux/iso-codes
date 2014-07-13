@@ -1,12 +1,12 @@
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	3.53
+Version:	3.55
 Release:	1
 License:	LGPL v2+
 Group:		Applications/Text
 Source0:	http://pkg-isocodes.alioth.debian.org/downloads/%{name}-%{version}.tar.xz
-# Source0-md5:	35afa0ba21ac2dcd68eb49e546908936
+# Source0-md5:	390291fa7ef954ca1feb4b3340d26c28
 URL:		http://pkg-isocodes.alioth.debian.org/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
