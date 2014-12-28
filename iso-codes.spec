@@ -10,7 +10,7 @@ Source0:	http://pkg-isocodes.alioth.debian.org/downloads/%{name}-%{version}.tar.
 URL:		http://pkg-isocodes.alioth.debian.org/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	rpmbuild(macros) >= 1.446
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
