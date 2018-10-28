@@ -1,13 +1,15 @@
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	3.74
+Version:	4.1
 Release:	1
 License:	LGPL v2+
 Group:		Applications/Text
-Source0:	http://pkg-isocodes.alioth.debian.org/downloads/%{name}-%{version}.tar.xz
-# Source0-md5:	d5448475d087756b78391b8c53c5b83a
-URL:		http://pkg-isocodes.alioth.debian.org/
+#Source0Download: https://salsa.debian.org/iso-codes-team/iso-codes/tags
+Source0:	https://salsa.debian.org/iso-codes-team/iso-codes/uploads/049ce6aac94d842be809f4063950646c/%{name}-%{version}.tar.xz
+# Source0-md5:	7d994bab4b0b7156e82ee7e117eb686b
+Patch0:		%{name}-pl.po-update.patch
+URL:		https://salsa.debian.org/iso-codes-team/iso-codes
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	gettext-tools
@@ -29,6 +31,7 @@ walut) w jednym miejscu, zamiast powtarzania ich w wielu programach.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__aclocal}
@@ -44,7 +47,7 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 
 # not supported yet by glibc
-%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/haw
+%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ace,ach,bar,ch,frp,gn,haw,io,jam,kab,ki,kv,mo,na,nah,nv,pi,son}
 
 %find_lang %{name} --all-name
 
@@ -53,7 +56,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc ChangeLog README.md TODO
+%doc ChangeLog.md README.md TODO
 %{_datadir}/iso-codes
 %{_datadir}/xml/iso-codes
 %{_npkgconfigdir}/iso-codes.pc
