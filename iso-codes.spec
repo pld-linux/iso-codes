@@ -1,14 +1,13 @@
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	4.1
+Version:	4.2
 Release:	1
 License:	LGPL v2+
 Group:		Applications/Text
 #Source0Download: https://salsa.debian.org/iso-codes-team/iso-codes/tags
-Source0:	https://salsa.debian.org/iso-codes-team/iso-codes/uploads/049ce6aac94d842be809f4063950646c/%{name}-%{version}.tar.xz
-# Source0-md5:	7d994bab4b0b7156e82ee7e117eb686b
-Patch0:		%{name}-pl.po-update.patch
+Source0:	https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/iso-codes-%{version}/%{name}-%{name}-%{version}.tar.bz2
+# Source0-md5:	4061989b62d599cc60107b57d58fabe4
 URL:		https://salsa.debian.org/iso-codes-team/iso-codes
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
@@ -30,8 +29,7 @@ Celem tego pakietu jest dostarczenie list nazw krajów i języków (oraz
 walut) w jednym miejscu, zamiast powtarzania ich w wielu programach.
 
 %prep
-%setup -q
-%patch0 -p1
+%setup -q -n %{name}-%{name}-%{version}
 
 %build
 %{__aclocal}
@@ -47,7 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 
 # not supported yet by glibc
-%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ace,ach,bar,ch,frp,gn,haw,io,jam,kab,ki,kv,mo,na,nah,nv,pi,son}
+%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ace,ach,bar,ch,frp,gn,haw,io,jam,kab,ki,kv,mo,na,nah,nv,pi,son,zh_Hant}
 
 %find_lang %{name} --all-name
 
