@@ -1,13 +1,13 @@
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	4.3
+Version:	4.4
 Release:	1
 License:	LGPL v2+
 Group:		Applications/Text
 #Source0Download: https://salsa.debian.org/iso-codes-team/iso-codes/tags
 Source0:	https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/iso-codes-%{version}/%{name}-%{name}-%{version}.tar.bz2
-# Source0-md5:	a3ec7e3382d2ff6a997307ec3fdf67fa
+# Source0-md5:	ae0d37b0f4f4dbd611a8c7b92b6b02dd
 URL:		https://salsa.debian.org/iso-codes-team/iso-codes
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
