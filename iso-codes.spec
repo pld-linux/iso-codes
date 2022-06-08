@@ -1,13 +1,13 @@
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	4.4
+Version:	4.10.0
 Release:	1
 License:	LGPL v2+
 Group:		Applications/Text
 #Source0Download: https://salsa.debian.org/iso-codes-team/iso-codes/tags
-Source0:	https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/iso-codes-%{version}/%{name}-%{name}-%{version}.tar.bz2
-# Source0-md5:	ae0d37b0f4f4dbd611a8c7b92b6b02dd
+Source0:	https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v%{version}/%{name}-v%{version}.tar.bz2
+# Source0-md5:	a62d3c260addaebfc71ee2a71841f6bb
 URL:		https://salsa.debian.org/iso-codes-team/iso-codes
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
@@ -29,7 +29,7 @@ Celem tego pakietu jest dostarczenie list nazw krajów i języków (oraz
 walut) w jednym miejscu, zamiast powtarzania ich w wielu programach.
 
 %prep
-%setup -q -n %{name}-%{name}-%{version}
+%setup -q -n %{name}-v%{version}
 
 %build
 %{__aclocal}
@@ -58,7 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc ChangeLog.md README.md TODO
+%doc CHANGELOG*.md README.md TODO
 %{_datadir}/iso-codes
 %{_datadir}/xml/iso-codes
 %{_npkgconfigdir}/iso-codes.pc
