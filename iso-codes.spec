@@ -1,13 +1,13 @@
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	4.10.0
-Release:	2
+Version:	4.11.0
+Release:	1
 License:	LGPL v2+
 Group:		Applications/Text
 #Source0Download: https://salsa.debian.org/iso-codes-team/iso-codes/tags
 Source0:	https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v%{version}/%{name}-v%{version}.tar.bz2
-# Source0-md5:	a62d3c260addaebfc71ee2a71841f6bb
+# Source0-md5:	c2bef0fba0d8f9d32474ae57dbebee75
 URL:		https://salsa.debian.org/iso-codes-team/iso-codes
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
@@ -46,7 +46,9 @@ rm -rf $RPM_BUILD_ROOT
 
 # unify
 %{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{nb_NO,nb}/LC_MESSAGES/iso_3166-2.mo
+%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{nb_NO,nb}/LC_MESSAGES/iso_3166_2.mo
 %{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{nb_NO,nb}/LC_MESSAGES/iso_639-5.mo
+%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{nb_NO,nb}/LC_MESSAGES/iso_639_5.mo
 # exists only in bn_BD
 %{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{bn_BD,bn}/LC_MESSAGES/iso_15924.mo
 # the rest is less complete in bn_BD than in bn
