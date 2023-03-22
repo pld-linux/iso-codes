@@ -2,7 +2,7 @@ Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
 Version:	4.13.0
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Applications/Text
 #Source0Download: https://salsa.debian.org/iso-codes-team/iso-codes/tags
@@ -55,7 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__rm} -r $RPM_BUILD_ROOT%{_localedir}/bn_BD
 
 # not supported yet by glibc
-%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ace,ach,bar,ch,frp,gn,haw,io,jam,ki,kmr,kv,mo,na,nah,nv,pi,son,tzm,zh_Hans,zh_Hant}
+%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ace,ach,bar,ch,frp,gn,haw,io,jam,ki,kmr,kv,mo,na,nah,nv,pa_PK,pi,son,tzm,zh_Hans,zh_Hant}
 
 %find_lang %{name} --all-name
 
