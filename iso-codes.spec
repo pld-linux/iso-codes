@@ -53,9 +53,11 @@ rm -rf $RPM_BUILD_ROOT
 %{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{bn_BD,bn}/LC_MESSAGES/iso_15924.mo
 # the rest is less complete in bn_BD than in bn
 %{__rm} -r $RPM_BUILD_ROOT%{_localedir}/bn_BD
+# less complete than pa
+%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/pa_PK
 
 # not supported yet by glibc
-%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ace,ach,bar,ch,frp,gn,haw,io,jam,ki,kmr,kv,mo,na,nah,nv,pa_PK,pi,son,tzm,zh_Hans,zh_Hant}
+%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ace,ach,bar,ch,frp,gn,haw,io,jam,ki,kmr,kv,mo,na,nah,nv,pi,son,tzm,zh_Hans,zh_Hant}
 
 %find_lang %{name} --all-name
 
