@@ -1,13 +1,13 @@
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	4.13.0
-Release:	2
+Version:	4.15.0
+Release:	1
 License:	LGPL v2+
 Group:		Applications/Text
 #Source0Download: https://salsa.debian.org/iso-codes-team/iso-codes/tags
 Source0:	https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v%{version}/%{name}-v%{version}.tar.bz2
-# Source0-md5:	4695f3bcfcce23a73ed6e6436d27cbee
+# Source0-md5:	6b0db0747ac9f04b1abf50eb67f86437
 URL:		https://salsa.debian.org/iso-codes-team/iso-codes
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
@@ -56,8 +56,8 @@ rm -rf $RPM_BUILD_ROOT
 # less complete than pa
 %{__rm} -r $RPM_BUILD_ROOT%{_localedir}/pa_PK
 
-# not supported yet by glibc
-%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ace,ach,bar,ch,frp,gn,haw,io,jam,ki,kmr,kv,mo,na,nah,nv,pi,son,tzm,zh_Hans,zh_Hant}
+# not supported yet by glibc (as of 2.38)
+%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ace,ach,ba,bar,ch,ee,frp,gn,haw,io,jam,ki,kmr,kv,mo,na,nah,nv,pi,son,tzm,zh_Hans,zh_Hant}
 
 %find_lang %{name} --all-name
 
