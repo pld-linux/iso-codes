@@ -1,13 +1,13 @@
 Summary:	List of country and language names
 Summary(pl.UTF-8):	Lista nazw krajów i języków
 Name:		iso-codes
-Version:	4.15.0
-Release:	2
+Version:	4.16.0
+Release:	1
 License:	LGPL v2+
 Group:		Applications/Text
 #Source0Download: https://salsa.debian.org/iso-codes-team/iso-codes/tags
 Source0:	https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v%{version}/%{name}-v%{version}.tar.bz2
-# Source0-md5:	6b0db0747ac9f04b1abf50eb67f86437
+# Source0-md5:	f10aff17ede42dca08de05e69cfe8362
 URL:		https://salsa.debian.org/iso-codes-team/iso-codes
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
@@ -45,19 +45,29 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 
 # unify
-%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{nb_NO,nb}/LC_MESSAGES/iso_3166-2.mo
-%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{nb_NO,nb}/LC_MESSAGES/iso_3166_2.mo
-%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{nb_NO,nb}/LC_MESSAGES/iso_639-5.mo
-%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{nb_NO,nb}/LC_MESSAGES/iso_639_5.mo
+%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{nb_NO,nb}
+%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{zh_Hans,zh_CN}/LC_MESSAGES/iso_639-5.mo
+%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{zh_Hans,zh_CN}/LC_MESSAGES/iso_639_5.mo
+%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{zh_Hant,zh_TW}/LC_MESSAGES/iso_639-5.mo
+%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{zh_Hant,zh_TW}/LC_MESSAGES/iso_639_5.mo
+# ensure dirs are empty
+rmdir $RPM_BUILD_ROOT%{_localedir}/zh_Hans/LC_MESSAGES
+rmdir $RPM_BUILD_ROOT%{_localedir}/zh_Hant/LC_MESSAGES
 # exists only in bn_BD
 %{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{bn_BD,bn}/LC_MESSAGES/iso_15924.mo
+%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{bn_BD,bn}/LC_MESSAGES/iso_3166-2.mo
+%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{bn_BD,bn}/LC_MESSAGES/iso_3166_2.mo
 # the rest is less complete in bn_BD than in bn
 %{__rm} -r $RPM_BUILD_ROOT%{_localedir}/bn_BD
-# less complete than pa
+# exists only in pa_PK
+%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{pa_PK,pa}/LC_MESSAGES/iso_15924.mo
+%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{pa_PK,pa}/LC_MESSAGES/iso_3166-2.mo
+%{__mv} -n $RPM_BUILD_ROOT%{_localedir}/{pa_PK,pa}/LC_MESSAGES/iso_3166_2.mo
+# the rest is less complete than pa
 %{__rm} -r $RPM_BUILD_ROOT%{_localedir}/pa_PK
 
-# not supported yet by glibc (as of 2.38)
-%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ace,ach,ba,bar,ch,ee,frp,gn,haw,io,jam,ki,kmr,kv,mo,na,nah,nv,pi,ro_MD,son,tzm,zh_Hans,zh_Hant}
+# not supported yet by glibc (as of 2.39)
+%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ace,ach,ba,bar,ch,ee,frp,gn,haw,io,jam,ki,kmr,na,nah,nv,pi,ro_MD,son,tzm}
 
 %find_lang %{name} --all-name
 
